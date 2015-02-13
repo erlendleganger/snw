@@ -84,9 +84,11 @@
                   </li>
                   <% end %>
                </ul>
+               <!--
                <form action="/tool/search/index.html" class="navbar-search pull-right">
                   <input type="text" style="margin-top:0.6em" placeholder="Search" name="q" id="tipue_search_input">
                </form>
+               -->
             </div><!--/.navbar-collapse -->
          </div>
       </div>
