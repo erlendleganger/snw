@@ -1,0 +1,35 @@
+---
+layout: 'default'
+title: 'Home'
+standalone: true
+---
+
+<!-- Primary marketing message or call to action -->
+<div class="jumbotron">
+   <h1>TBDh1</h1>
+   <p>TBDp</p>
+</div>
+
+<div class="row" class="text-center">
+
+<div class="col-lg-6">
+<h2>TBDh2</h2>
+<p>TBDp</p>
+
+<ul>
+<% for topic in @getCollection("releasetopics").toJSON()[0..9]: %>
+   <li>
+   [<%=  @getDateYYYYMMDD(topic.date) %>]
+   <a href="<%= topic.url %>"><%= topic.title %></a>
+   </li>
+<% end %>
+<li>...</li>
+</ul>
+</div>
+
+<div class="col-lg-6">
+<h2>TBDh2</h2>
+<p>TBDp</p>
+</div>
+
+</div>
