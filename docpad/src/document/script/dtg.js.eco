@@ -1,0 +1,11 @@
+//------------------------------------------------------------------------
+//dtg when the web site conversion was last run; in eco, use replace() to
+//change for example 2014-01-01T09:59:57.548Z to 2014-01-01 09:59:57
+var dtg='<%= @site.date.toISOString().replace('T',' ').replace(/\..*/,'') %>';
+
+//------------------------------------------------------------------------
+//write the dtg for the site conversion into the document
+//------------------------------------------------------------------------
+function printGeneratedDtg(){
+   document.write(dtg);
+}
