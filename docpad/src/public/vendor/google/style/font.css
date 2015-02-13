@@ -1,0 +1,33 @@
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   src: local('Open Sans'), local('OpenSans'),
+   url(/vendor/google/font/opensans-normal.woff)
+   format('woff'); } 
+
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   src: local('Open Sans Bold'), local('OpenSans-Bold'),
+   url(/vendor/google/font/opensans-normal-bold.woff)
+   format('woff'); } 
+
+@font-face {
+   font-family: 'Open Sans';
+   font-style: italic;
+   font-weight: 400;
+   src: local('Open Sans Italic'),
+   local('OpenSans-Italic'),
+   url(/vendor/google/font/opensans-italic.woff)
+   format('woff'); } 
+
+@font-face {
+   font-family: 'Open Sans';
+   font-style: italic;
+   font-weight: 700;
+   src: local('Open Sans Bold Italic'),
+   local('OpenSans-BoldItalic'),
+   url(/vendor/google/font/opensans-italic-bold.woff)
+   format('woff'); }

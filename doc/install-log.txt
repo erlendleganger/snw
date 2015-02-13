@@ -1,0 +1,26 @@
+Log of installation activities
+-----------------------------
+* Copied directories from siteinfo-web
+* Deleted .git directory
+* Added new virtual site to Aapache2:
+Added this to /etc/apache2/httpd.conf:
+
+<VirtualHost 192.168.239.132:80>
+    ServerAdmin webmaster@dummy-host.example.com
+    DocumentRoot /export/snw/docpad/out
+    ServerName dummy-host.example.com
+    ErrorLog /var/apache2/logs/snw-error_log
+    CustomLog /var/apache2/logs/snw-access_log common
+</VirtualHost>
+
+* Added a new ip to existing interface
+This must match the ip used in apache conf. Used 3 (instead of 1) below because there were other temporary ips in use.
+
+ifconfig -a
+ifconfig e1000g0:3 plumb
+ifconfig e1000g0:3 192.168.239.132 up
+echo 192.168.239.132 >/etc/hostname.e1000g0:3
+
+* Built sited using bash bin/web-driver.sh -a build, verified ok.
+
+

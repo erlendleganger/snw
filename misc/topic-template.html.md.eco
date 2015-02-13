@@ -1,0 +1,37 @@
+---
+title: TbdAddTitle
+date: 2099-12-31
+layout: post
+type: release-topic
+releaselist: [ nc2u-15.5.0,nwin-3.1.0,nsol-3.2.1 ]
+---
+<%= @getReleaseTopicBlock(@document) %>
+
+TbdSomeTextInMarkdownSyntax-GoogleIsYourFriend...
+
+TbdSomeBoldText: **TbdBold**
+
+TbdSomeSyntaxHighlightedCode:
+``` bash
+root@nsxyzac01:~$ tbdsomecommand
+tbdsomeoutput
+```
+
+TbdSomeCodeInFlowingText: <code>tbdsomecommandherer</code>
+
+TbdSomeUnorderedList:
+* TbdSomeEntry
+* TbdSomeEntry
+* TbdSomeEntry
+* TbdSomeEntry
+* TbdSomeEntry
+
+TbdSomeOrderedlist
+
+1. TbdSomeEntry
+1. TbdSomeEntry
+1. TbdSomeEntry
+1. TbdSomeEntry
+1. TbdSomeEntry
+
+
