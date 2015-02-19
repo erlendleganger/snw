@@ -80,7 +80,7 @@ for action in $actions;do
       build)
          cd $WEB_DOCPADDIR
          docpad generate --env static
-         pagelist_generate
+         #pagelist_generate
          ;;
 
       generate-poc)
