@@ -16,6 +16,14 @@ fi
 export LIB_BINDIR=$LIB_BASEDIR/bin
 
 #-----------------------------------------------------------------------
+#the log directory
+export LIB_LOGDIR=$LIB_BASEDIR/log
+
+#-----------------------------------------------------------------------
+#the data directory
+export LIB_DATADIR=$LIB_BASEDIR/src/data
+
+#-----------------------------------------------------------------------
 #the file name of the script; excluding any path part
 export LIB_ME=$(basename $0)
 
@@ -35,22 +43,26 @@ export WEB_DPOUTDIR=$LIB_BASEDIR/docpad/out
 
 #-----------------------------------------------------------------------
 #-----------------------------------------------------------------------
-pagelist_generate(){
-local me=pagelist_generate
+tbd(){
+local me=tbd
 logger_trace $me: start
-local tmpfile=$(mktemp)
-find $WEB_DPOUTDIR/{release/topic,misc} -name index.html|sort|sed -e "s/.*\/out//" -e "s/.*/'&',/">$tmpfile
-pagelistfile=$WEB_DPOUTDIR/vendor/tipuesearch/page-list.g.js
-logger_trace $me: generate $pagelistfile
-cat >$pagelistfile <<EOT
-//$LIB_GENWARN
-
-//list of files to search
-var tipuesearch_pages = [
-$(cat $tmpfile)
-''
-];
-EOT
-rm $tmpfile
 logger_trace $me: end
 }
+
+#-----------------------------------------------------------------------
+#-----------------------------------------------------------------------
+convert_db(){
+local me=convert_db
+local id=dummy
+logger_trace $me: start
+perl -we "
+use lib qq($LIB_BINDIR); #to find web.pm
+use web;
+web::convert_db(qw($id));
+" 2>&1|logger_info
+if [ ${PIPESTATUS[0]} != 0 ]; then
+   logger_fatal $me: conversion failed; exit 1
+fi
+logger_trace $me: end
+}
+

@@ -24,6 +24,7 @@ where:
       - version: Show the current DocPad version installed
       - run: Run the web site in node.js for live update etc
       - build: Build a new version of the static web site
+      - convert: Convert the database into web pages
       - upgrade: Upgrade the local DocPad installation
 
 EOT
@@ -83,14 +84,9 @@ for action in $actions;do
          #pagelist_generate
          ;;
 
-      generate-poc)
-         cd $LIB_BASEDIR
-         perl $LIB_BINDIR/web-gen-poc.pl
-         ;;
-
-      generate-site)
-         cd $LIB_BASEDIR
-         perl $LIB_BINDIR/web-gen-site.pl
+      generate)
+         cd $WEB_DOCPADDIR
+         convert_db
          ;;
 
       run)
