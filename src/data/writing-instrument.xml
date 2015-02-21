@@ -1,0 +1,31 @@
+<instruments>
+
+   <instrument id="g2">
+      <manufacturer id="pilot"/>
+      <name>G-2</name>
+      <weight>
+         <total>90</total>
+      </weight>
+      <procurement>
+         <vendor id="staples-ski"/>
+         <price>TBD</price>
+         <currency id="nok"/>
+         <date>2015-01-29</date>
+      </procurement>
+   </instrument>
+
+   <instrument id="juice-038-bb">
+      <manufacturer id="pilot"/>
+      <name>Juice 0.38 Blue Black</name>
+      <weight>
+         <total>90</total>
+      </weight>
+      <procurement>
+         <vendor id="staples-ski"/>
+         <price>TBD</price>
+         <currency id="nok"/>
+         <date>2015-01-29</date>
+      </procurement>
+   </instrument>
+
+</instruments>
