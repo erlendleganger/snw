@@ -102,7 +102,7 @@
 
          <!-- Footer -->
          <footer>
-         <p class="pull-left">&copy; NEC CCIS SSC <%- (new Date()).getFullYear() %></p>
+         <p class="pull-left">&copy; Silent Norwegian <%- (new Date()).getFullYear() %></p>
          <p class="pull-right">This website was last updated at <script>printGeneratedDtg();</script>.</p>
          </footer>
       </div><!-- /container -->

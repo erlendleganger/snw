@@ -15,6 +15,11 @@ our $VERSION="0.1";
 use base "Exporter";
 our @EXPORT=qw(hello);
 my $instrumentdatafile="$ENV{LIB_DATADIR}/writing-instrument.xml";
+my $manufacturerdatafile="$ENV{LIB_DATADIR}/manufacturer.xml";
+my $vendordatafile="$ENV{LIB_DATADIR}/vendor.xml";
+#export WEB_DOCPADDIR=$LIB_BASEDIR/docpad
+my $docsrcdir=qq($ENV{WEB_DOCPADDIR}/src/document);
+my $genwarning="generated file, all manual updates will be lost";
 
 #-----------------------------------------------------------------------
 #set up logging
@@ -48,23 +53,53 @@ my $me="convert_db";
 my ($id)=@_;
 $logger->trace("$me: start");
 $logger->trace("$me: id=$id");
+my $xml=new XML::Simple;
+my $f;
 
 #-----------------------------------------------------------------------
-my $f=$instrumentdatafile;
+$f=$instrumentdatafile;
 die "cannot find $f" if(! -f $f);
-my $xml=new XML::Simple;
 my $xml_instrument=$xml->XMLin($f,keyattr=>[qw(id)]);
-#for my $id(keys %{$xml_gcds->{wp}}){
-#$wpdb{$id}{title}=$xml_gcds->{wp}{$id}{wpTitle};
-#$wpdb{$id}{status}=$xml_gcds->{wp}{$id}{wpStatus};
-#$wpdb{$id}{order}=$xml_gcds->{wp}{$id}{wpOrder};
-#}
-print Dumper($xml_instrument->{instrument});
-#print Dumper($xml_instrument);
-#print Dumper(%wpdb);
-#open TMP,">/tmp/wpdb.txt";
-#for my $id(sort keys %wpdb){print TMP "$id,$wpdb{$id}{status}\n";}
-#close TMP;
+open TMP,">/tmp/instrument.txt"; print TMP Dumper($xml_instrument->{instrument});close TMP;
+
+#-----------------------------------------------------------------------
+$f=$manufacturerdatafile;
+die "cannot find $f" if(! -f $f);
+my $xml_manufacturer=$xml->XMLin($f,keyattr=>[qw(id)]);
+open TMP,">/tmp/manufacturer.txt"; print TMP Dumper($xml_manufacturer->{manufacturer});close TMP;
+
+#-----------------------------------------------------------------------
+$f=$vendordatafile;
+die "cannot find $f" if(! -f $f);
+my $xml_vendor=$xml->XMLin($f,keyattr=>[qw(id)]);
+open TMP,">/tmp/vendor.txt"; print TMP Dumper($xml_vendor->{vendor});close TMP;
+
+#-----------------------------------------------------------------------
+for my $id(keys %{$xml_instrument->{instrument}}){
+   my $manufacturerid=$xml_instrument->{instrument}{$id}{manufacturer}{id};
+   my $manufacturer=$xml_manufacturer->{manufacturer}{$manufacturerid}{name};
+   my $vendorid=$xml_instrument->{instrument}{$id}{procurement}{vendor}{id};
+   my $vendor=$xml_vendor->{vendor}{$vendorid}{name};
+   my $name=$xml_instrument->{instrument}{$id}{name};
+   my $fname="$docsrcdir/handwriting/$id.html.md";
+   $logger->trace("$fname|$manufacturer|$name|$vendor");
+
+   open OUT,">$fname" or die "cannot create $fname";
+   print OUT<<EOT
+---
+#$genwarning
+layout: post
+type: handwriting
+category: review
+title: $manufacturer $name
+date: $xml_instrument->{instrument}{$id}{review}{date}
+---
+
+$xml_instrument->{instrument}{$id}{review}{text}
+EOT
+;
+   close OUT;
+}
 
 #-----------------------------------------------------------------------
 $logger->trace("$me: end");

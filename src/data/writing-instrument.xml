@@ -1,6 +1,6 @@
 <instruments>
 
-   <instrument id="g2">
+   <instrument id="pilot-g2">
       <manufacturer id="pilot"/>
       <name>G-2</name>
       <weight>
@@ -12,11 +12,15 @@
          <currency id="nok"/>
          <date>2015-01-29</date>
       </procurement>
+      <review>
+         <date>2015-02-26</date>
+         <text><![CDATA[Review of Pilot G2.]]></text>
+      </review>
    </instrument>
 
-   <instrument id="juice-038-bb">
+   <instrument id="pilot-juice-038">
       <manufacturer id="pilot"/>
-      <name>Juice 0.38 Blue Black</name>
+      <name>Juice 0.38</name>
       <weight>
          <total>90</total>
       </weight>
@@ -26,6 +30,10 @@
          <currency id="nok"/>
          <date>2015-01-29</date>
       </procurement>
+      <review>
+         <date>2015-02-27</date>
+         <text><![CDATA[Review of Pilot Juice.]]></text>
+      </review>
    </instrument>
 
 </instruments>

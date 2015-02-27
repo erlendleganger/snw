@@ -99,12 +99,19 @@ docpadConfig = {
                                 @site.title
 
                 #block of text to be used in release tocs
+                getHandwritingTocBlock: (document) ->
+                   "<p>Use the links below or read it all in <a href='../#{document.releaseid.replace(/\./g,'')}-all/'>one single page</a>:</p>\n<ul>\n"+
+                   (for topic,cnt in @getCollection("documents").findAllLive({type:'handwriting'},[{date:-1}]).toJSON()
+                      "<li>[#{@getDateYYYYMMDD(topic.date)}] <a href='#{topic.url}'>#{topic.title}</a></li>").join('\n')+
+                   "</ul>\n"
+
+                #block of text to be used in release tocs
                 getReleaseTocBlock: (document) ->
                    "<p>Use the links below or read it all in <a href='../#{document.releaseid.replace(/\./g,'')}-all/'>one single page</a>:</p>\n<ul>\n"+
                    (for topic,cnt in @getCollection("documents").findAllLive({type:'release-topic',releaselist: $has: document.releaseid},[{date:-1}]).toJSON()
                       "<li>[#{@getDateYYYYMMDD(topic.date)}] <a href='#{topic.url}'>#{topic.title}</a></li>").join('\n')+
                    "</ul>\n"
-                   
+
                 #block of text to be used in release topics
                 getReleaseAllBlock: (document) ->
                    "<p>Table of contents:</p>\n<ul>\n"+

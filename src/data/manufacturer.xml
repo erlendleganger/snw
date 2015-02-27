@@ -1,0 +1,8 @@
+<manufacturers>
+   <manufacturer id="pilot">
+      <name>Pilot</name>
+   </manufacturer>
+   <manufacturer id="twsb">
+      <name>TWSB</name>
+   </manufacturer>
+</manufacturers>
