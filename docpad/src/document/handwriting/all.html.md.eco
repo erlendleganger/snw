@@ -8,7 +8,7 @@ pageOrder: 30
 The reviews are listed in chronological order.
 <nav class="linklist">
 <ul>
-<% for inx in @getCollection("documents").findAllLive({type:'handwriting',category:'review'},[{order:1}]).toJSON(): %>
+<% for inx in @getCollection("documents").findAllLive({type:'handwriting',category:'review'},[{date:-1}]).toJSON(): %>
 <li>[<%=  @getDateYYYYMMDD(inx.date) %>] <a href="<%= inx.url %>"><%= inx.title %></a></li>
 <% end %>
 </ul>
