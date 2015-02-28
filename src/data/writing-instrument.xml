@@ -1,5 +1,64 @@
 <instruments>
 
+   <instrument id="pilot-super-gel-07">
+      <manufacturer id="pilot"/>
+      <name>Super Gel 08</name>
+      <weight>
+         <total>9.5</total>
+      </weight>
+      <procurement>
+         <vendor id="staples-ski"/>
+         <price>TBD</price>
+         <currency id="nok"/>
+         <date>2015-01-29</date>
+      </procurement>
+      <review>
+         <date>2015-02-26</date>
+         <text><![CDATA[
+TBD: 
+
+<a href="https://www.flickr.com/photos/131463957@N06/16664411702" title="IMG_20150227_211713 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8656/16664411702_29b762e447.jpg" width="375" height="500" alt="IMG_20150227_211713"></a>
+
+TBD: 
+
+<a href="https://www.flickr.com/photos/131463957@N06/16664411662" title="IMG_20150227_211540 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8613/16664411662_a9b8727807.jpg" width="375" height="500" alt="IMG_20150227_211540"></a>
+
+                  ]]></text>
+
+      </review>
+   </instrument>
+
+   <instrument id="pilot-v5-hi-techpoint-05">
+      <manufacturer id="pilot"/>
+      <name>V5 Hi-Tecpoint 0.5</name>
+      <weight>
+         <total>10.0</total>
+      </weight>
+      <procurement>
+         <vendor id="staples-ski"/>
+         <price>TBD</price>
+         <currency id="nok"/>
+         <date>2015-01-29</date>
+      </procurement>
+      <review>
+         <date>2015-02-27</date>
+         <text><![CDATA[
+TBD:
+
+<a href="https://www.flickr.com/photos/131463957@N06/16477962888" title="2015-02-27_09-38-42 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8642/16477962888_b3de0991e8.jpg" width="375" height="500" alt="2015-02-27_09-38-42"></a>
+
+TBD:
+
+<a href="https://www.flickr.com/photos/131463957@N06/16479397999" title="2015-02-27_09-39-25 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8625/16479397999_872510ab08.jpg" width="500" height="375" alt="2015-02-27_09-39-25"></a>
+
+TBD:
+
+<a href="https://www.flickr.com/photos/131463957@N06/16458238197" title="2015-02-27_09-39-51 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8617/16458238197_a4c0e138cd.jpg" width="500" height="375" alt="2015-02-27_09-39-51"></a>
+
+            ]]></text>
+      </review>
+   </instrument>
+
    <instrument id="pilot-g2">
       <manufacturer id="pilot"/>
       <name>G-2</name>
@@ -13,7 +72,7 @@
          <date>2015-01-29</date>
       </procurement>
       <review>
-         <date>2015-02-26</date>
+         <date>2015-02-27</date>
          <text><![CDATA[Review of Pilot G2.]]></text>
       </review>
    </instrument>
@@ -31,7 +90,7 @@
          <date>2015-01-29</date>
       </procurement>
       <review>
-         <date>2015-02-27</date>
+         <date>2015-02-28</date>
          <text><![CDATA[Review of Pilot Juice.]]></text>
       </review>
    </instrument>
