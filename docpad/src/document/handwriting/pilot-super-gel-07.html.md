@@ -1,5 +1,5 @@
 ---
-#generated file, all manual updates will be lost
+#note: generated file, all local modifications will be lost
 layout: post
 type: handwriting
 category: review
