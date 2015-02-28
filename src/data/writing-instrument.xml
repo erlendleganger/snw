@@ -26,7 +26,7 @@
       <manufacturer id="pilot"/>
       <name>V5 Hi-Tecpoint 0.5</name>
       <tip>ball</tip>
-      <ink>gel</ink>
+      <ink>water</ink>
       <weight>
          <total>10.0</total>
       </weight>
@@ -43,7 +43,7 @@
    </instrument>
 
    <!-- ============================================================= -->
-   <instrument id="pilot-g2">
+   <?instrument id="pilot-g2">
       <manufacturer id="pilot"/>
       <name>G-2</name>
       <tip>ball</tip>
@@ -63,10 +63,10 @@
 <![CDATA[
 Review of Pilot G2.]]></text>
       </review>
-   </instrument>
+   </instrument?>
 
    <!-- ============================================================= -->
-   <instrument id="pilot-juice-038">
+   <?instrument id="pilot-juice-038">
       <manufacturer id="pilot"/>
       <name>Juice 0.38</name>
       <tip>ball</tip>
@@ -86,11 +86,32 @@ Review of Pilot G2.]]></text>
 <![CDATA[
 Review of Pilot Juice.]]></text>
       </review>
+   </instrument?>
+
+   <!-- ============================================================= -->
+   <instrument id="pilot-v-ball-05">
+      <manufacturer id="pilot"/>
+      <name>V-Ball 0.5</name>
+      <tip>ball</tip>
+      <ink>water</ink>
+      <weight>
+         <total>9.5</total>
+      </weight>
+      <procurement>
+         <vendor id="tbd"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>tbd</date>
+      </procurement>
+      <review>
+         <date>2015-02-28</date>
+         <text/>
+      </review>
    </instrument>
 
    <!-- ============================================================= -->
    <?instrument id="tbd">
-   <manufacturer id="tbd">
+      <manufacturer id="tbd"/>
       <name>tbd</name>
       <tip>tbd</tip>
       <ink>tbd</ink>
