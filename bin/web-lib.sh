@@ -22,6 +22,7 @@ export LIB_LOGDIR=$LIB_BASEDIR/log
 #-----------------------------------------------------------------------
 #the data directory
 export LIB_DATADIR=$LIB_BASEDIR/src/data
+export LIB_TOPICDIR=$LIB_BASEDIR/src/topic
 
 #-----------------------------------------------------------------------
 #the file name of the script; excluding any path part

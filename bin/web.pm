@@ -19,7 +19,14 @@ my $manufacturerdatafile="$ENV{LIB_DATADIR}/manufacturer.xml";
 my $vendordatafile="$ENV{LIB_DATADIR}/vendor.xml";
 #export WEB_DOCPADDIR=$LIB_BASEDIR/docpad
 my $docsrcdir=qq($ENV{WEB_DOCPADDIR}/src/document);
+my $topicdir=qq($ENV{LIB_TOPICDIR});
 my $genwarning="generated file, all manual updates will be lost";
+
+#-----------------------------------------------------------------------
+my %pentype;
+$pentype{ball}{gel}="Rollerball gel";
+$pentype{ball}{oil}="Ballpoint";
+$pentype{ball}{water}="Rollerball";
 
 #-----------------------------------------------------------------------
 #set up logging
@@ -76,14 +83,36 @@ open TMP,">/tmp/vendor.txt"; print TMP Dumper($xml_vendor->{vendor});close TMP;
 
 #-----------------------------------------------------------------------
 for my $id(keys %{$xml_instrument->{instrument}}){
+
+   #--------------------------------------------------------------------
    my $manufacturerid=$xml_instrument->{instrument}{$id}{manufacturer}{id};
    my $manufacturer=$xml_manufacturer->{manufacturer}{$manufacturerid}{name};
    my $vendorid=$xml_instrument->{instrument}{$id}{procurement}{vendor}{id};
    my $vendor=$xml_vendor->{vendor}{$vendorid}{name};
    my $name=$xml_instrument->{instrument}{$id}{name};
+   my $tip=$xml_instrument->{instrument}{$id}{tip};
+   my $ink=$xml_instrument->{instrument}{$id}{ink};
    my $fname="$docsrcdir/handwriting/$id.html.md";
-   $logger->trace("$fname|$manufacturer|$name|$vendor");
+   my $reviewfname="$topicdir/$id.md";
+   my $reviewtext=$xml_instrument->{instrument}{$id}{review}{text};
+   $logger->trace("$manufacturer|$name|$vendor|$tip|$ink");
 
+   #--------------------------------------------------------------------
+   my $pentype;
+   if(!defined $pentype{$tip}{$ink}){
+      $logger->fatal("cannot find pentype for $id, $tip, $ink");
+      exit 1;
+   }
+
+   #--------------------------------------------------------------------
+   #get review text from file
+   if (-f $reviewfname){
+      open IN,"<$reviewfname" or die "cannot open $reviewfname";
+      {local $/=undef;$reviewtext =<IN>;}
+      close IN;
+   }
+
+   #--------------------------------------------------------------------
    open OUT,">$fname" or die "cannot create $fname";
    print OUT<<EOT
 ---
@@ -95,7 +124,12 @@ title: $manufacturer $name
 date: $xml_instrument->{instrument}{$id}{review}{date}
 ---
 
-$xml_instrument->{instrument}{$id}{review}{text}
+* Manufacturer: [$manufacturer](/a/b/c/$manufacturerid.html)
+* Name: $name
+* Type: $pentype{$tip}{$ink}
+* Weight: $xml_instrument->{instrument}{$id}{weight}{total}g
+
+$reviewtext
 EOT
 ;
    close OUT;

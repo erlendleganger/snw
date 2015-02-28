@@ -1,17 +1,3 @@
----
-#generated file, all manual updates will be lost
-layout: post
-type: handwriting
-category: review
-title: Pilot Super Gel 07
-date: 2015-02-27
----
-
-* Manufacturer: [Pilot](/a/b/c/pilot.html)
-* Name: Super Gel 07
-* Type: Rollerball gel
-* Weight: 9.5g
-
 This is a nice pen. It flows nicely on the paper when writing, with no
 scraping. There is a bit of smudging (see in the picture), maybe because
 of the 0.7 tip; maybe the 0.5 or smaller is better.
@@ -21,4 +7,3 @@ of the 0.7 tip; maybe the 0.5 or smaller is better.
 TBD: 
 
 <a href="https://www.flickr.com/photos/131463957@N06/16664411662" title="IMG_20150227_211540 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8613/16664411662_a9b8727807.jpg" width="375" height="500" alt="IMG_20150227_211540"></a>
-

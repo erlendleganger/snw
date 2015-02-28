@@ -79,12 +79,14 @@ for action in $actions;do
          ;;
 
       build)
+         logger_info $me: build
          cd $WEB_DOCPADDIR
          docpad generate --env static
          #pagelist_generate
          ;;
 
       generate)
+         logger_info $me: generate
          cd $WEB_DOCPADDIR
          convert_db
          ;;
