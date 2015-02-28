@@ -1,6 +1,6 @@
 #-----------------------------------------------------------------------
 #lib settings
-LIB_GENWARN="note: generated file, all local modifications will be lost"
+export LIB_GENWARN="note: generated file, all local modifications will be lost"
 
 #-----------------------------------------------------------------------
 #basedir must be set in calling script
@@ -41,6 +41,7 @@ appender_file_setFile myLogfile $LIB_LOGFILE
 #-----------------------------------------------------------------------
 export WEB_DOCPADDIR=$LIB_BASEDIR/docpad
 export WEB_DPOUTDIR=$LIB_BASEDIR/docpad/out
+export WEB_GENDIR=$LIB_BASEDIR/gen
 
 #-----------------------------------------------------------------------
 #-----------------------------------------------------------------------

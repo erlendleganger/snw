@@ -17,10 +17,10 @@ our @EXPORT=qw(hello);
 my $instrumentdatafile="$ENV{LIB_DATADIR}/writing-instrument.xml";
 my $manufacturerdatafile="$ENV{LIB_DATADIR}/manufacturer.xml";
 my $vendordatafile="$ENV{LIB_DATADIR}/vendor.xml";
-#export WEB_DOCPADDIR=$LIB_BASEDIR/docpad
+my $gendir="$ENV{WEB_GENDIR}";
 my $docsrcdir=qq($ENV{WEB_DOCPADDIR}/src/document);
 my $topicdir=qq($ENV{LIB_TOPICDIR});
-my $genwarning="generated file, all manual updates will be lost";
+my $genwarning=qq($ENV{LIB_GENWARN});
 
 #-----------------------------------------------------------------------
 my %pentype;
@@ -134,6 +134,21 @@ EOT
 ;
    close OUT;
 }
+
+#-----------------------------------------------------------------------
+my @db;
+for my $id(keys %{$xml_instrument->{instrument}}){
+   my $manufacturerid=$xml_instrument->{instrument}{$id}{manufacturer}{id};
+   my $manufacturer=$xml_manufacturer->{manufacturer}{$manufacturerid}{name};
+   my $name=$xml_instrument->{instrument}{$id}{name};
+   push @db,qq($manufacturer $name);
+}
+my $fname="$gendir/pen-list.txt";
+open OUT,">$fname" or die("cannot create $fname");
+print OUT "#list of pens\n";
+print OUT join "\n", sort @db;
+print OUT "\n";
+close OUT;
 
 #-----------------------------------------------------------------------
 $logger->trace("$me: end");
