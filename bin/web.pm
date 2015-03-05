@@ -27,6 +27,7 @@ my %pentype;
 $pentype{ball}{gel}="Rollerball gel";
 $pentype{ball}{oil}="Ballpoint";
 $pentype{ball}{water}="Rollerball";
+$pentype{nib}{m}="Fountain pen";
 
 #-----------------------------------------------------------------------
 #set up logging

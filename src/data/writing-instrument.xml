@@ -110,6 +110,27 @@ Review of Pilot Juice.]]></text>
    </instrument>
 
    <!-- ============================================================= -->
+   <instrument id="pilot-vpen-m">
+      <manufacturer id="pilot"/>
+      <name>Vpen M</name>
+      <tip>nib</tip>
+      <ink>m</ink>
+      <weight>
+         <total>9.5</total>
+      </weight>
+      <procurement>
+         <vendor id="norli-ski"/>
+         <price>55</price>
+         <currency id="nok"/>
+         <date>2015-01-24</date>
+      </procurement>
+      <review>
+         <date>2015-03-05</date>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
    <?instrument id="tbd">
       <manufacturer id="tbd"/>
       <name>tbd</name>
