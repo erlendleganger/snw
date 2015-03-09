@@ -2,8 +2,8 @@
 #note: generated file, all local modifications will be lost
 layout: post
 type: handwriting
-category: review
-title: Pilot V-Ball 0.5
+category: penreview
+title: Review of Pilot V-Ball 0.5
 date: 2015-02-28
 ---
 
@@ -12,7 +12,27 @@ date: 2015-02-28
 * Type: Rollerball
 * Weight: 9.5g
 
-Review text.
+The Vball is one of the many Pilots available. As usual, the performance
+is good, it writes nicely and as expected. The pen is all plastic, clear
+and black, good looking, actually.
+
+The grip is nice, even though there is no pattern or rubber, just the
+same plastic as the rest of the pen.
+
+Writing flows nicely, with a relatively thin line, perfect for note
+taking. For some reason, it doesn't flow as easily as the [Pilot V5
+Hi-techpoint](../pilot-v5-hi-techpoint-05), maybe the ball is a bit
+different, or maybe the ink makes the difference.
+
+There is no mechanism other than the cap, no refill possibilities.
+
+I have used it for work for a couple of days, it worked fine with my work
+notebook [TBD](TBD), there is an example below of doodling (probably done
+during a not-so-interesting meeting).
+
+This is an OK pen, but not as smooth as other rollerballs I have used (such as
+[Pilot V5 Hi-techpoint](../pilot-v5-hi-techpoint-05)) or gel pens (such as
+[Pilot Super Gel](../pilot-super-gel-07)).
 
 ---
 Writing sample
@@ -29,4 +49,9 @@ Tip close-up. No ink in the grip area for this pen - yet.
 
 <a href="https://www.flickr.com/photos/131463957@N06/16670790912" title="2015-02-28_03-10-56 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8642/16670790912_88ce015ca6.jpg" width="500" height="375" alt="2015-02-28_03-10-56"></a>
 
+---
+Example doodles, assisted in red by the [Pilot V5
+Hi-techpoint](../pilot-v5-hi-techpoint-05).
+
+<a href="https://www.flickr.com/photos/131463957@N06/16580803970" title="2015-03-09_09-39-16 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8596/16580803970_1b974d55bb.jpg" width="375" height="500" alt="2015-03-09_09-39-16"></a>
 

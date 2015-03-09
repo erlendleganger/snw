@@ -2,8 +2,8 @@
 #note: generated file, all local modifications will be lost
 layout: post
 type: handwriting
-category: review
-title: Pilot V5 Hi-Tecpoint 0.5
+category: penreview
+title: Review of Pilot V5 Hi-Tecpoint 0.5
 date: 2015-02-27
 ---
 
@@ -12,20 +12,28 @@ date: 2015-02-27
 * Type: Rollerball
 * Weight: 10.0g
 
-The review text.
+This is a standard Pilot pen, all plastic. The grip is OK, even though
+it is the same plastic material as the rest of the pen, no pattern or
+rubber. The roller ball makes it a smooth writer, no complaints there. The
+0.5 tip also makes it nice for me to use at work, I get the thin lines
+I want.
+
+I have used it for work for a few days, not as the main pen (would not like to make notes all red), but for highlighting, figures etc.
+
+Note the smudging inside the grip area, the Pilot trademark.
 
 ---
-TBD:
+Writing sample.
 
 <a href="https://www.flickr.com/photos/131463957@N06/16477962888" title="2015-02-27_09-38-42 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8642/16477962888_b3de0991e8.jpg" width="375" height="500" alt="2015-02-27_09-38-42"></a>
 
 ---
-TBD:
+Closeup of the pen.
 
 <a href="https://www.flickr.com/photos/131463957@N06/16479397999" title="2015-02-27_09-39-25 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8625/16479397999_872510ab08.jpg" width="500" height="375" alt="2015-02-27_09-39-25"></a>
 
 ---
-TBD:
+Closeup of the tip area.
 
 <a href="https://www.flickr.com/photos/131463957@N06/16458238197" title="2015-02-27_09-39-51 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8617/16458238197_a4c0e138cd.jpg" width="500" height="375" alt="2015-02-27_09-39-51"></a>
 

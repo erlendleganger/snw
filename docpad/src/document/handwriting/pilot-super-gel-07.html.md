@@ -2,8 +2,8 @@
 #note: generated file, all local modifications will be lost
 layout: post
 type: handwriting
-category: review
-title: Pilot Super Gel 07
+category: penreview
+title: Review of Pilot Super Gel 07
 date: 2015-02-27
 ---
 
