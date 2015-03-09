@@ -120,8 +120,8 @@ for my $id(keys %{$xml_instrument->{instrument}}){
 #$genwarning
 layout: post
 type: handwriting
-category: review
-title: $manufacturer $name
+category: penreview
+title: Review of $manufacturer $name
 date: $xml_instrument->{instrument}{$id}{review}{date}
 ---
 
