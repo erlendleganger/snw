@@ -11,6 +11,7 @@ date: 2015-03-05
 * Name: Vpen M
 * Type: Fountain pen
 * Weight: 9.5g
+* Review date: 2015-03-05
 
 This was the first fountain pen I have used for years. I learned cursive
 writing in school (maybe around 1976), but haven't used fountain pens

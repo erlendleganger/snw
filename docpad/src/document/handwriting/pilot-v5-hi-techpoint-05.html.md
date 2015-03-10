@@ -11,6 +11,7 @@ date: 2015-02-27
 * Name: V5 Hi-Tecpoint 0.5
 * Type: Rollerball
 * Weight: 10.0g
+* Review date: 2015-02-27
 
 This is a standard Pilot pen, all plastic. The grip is OK, even though
 it is the same plastic material as the rest of the pen, no pattern or

@@ -11,6 +11,7 @@ date: 2015-02-27
 * Name: Super Gel 07
 * Type: Rollerball gel
 * Weight: 9.5g
+* Review date: 2015-02-27
 
 This is a nice pen. It flows nicely on the paper when writing, with no
 scraping. There is a bit of smudging, probably because of the 0.7 tip;

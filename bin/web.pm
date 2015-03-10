@@ -129,6 +129,7 @@ date: $xml_instrument->{instrument}{$id}{review}{date}
 * Name: $name
 * Type: $pentype{$tip}{$ink}
 * Weight: $xml_instrument->{instrument}{$id}{weight}{total}g
+* Review date: $xml_instrument->{instrument}{$id}{review}{date}
 
 $reviewtext
 EOT

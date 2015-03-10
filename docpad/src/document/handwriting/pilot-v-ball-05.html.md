@@ -11,6 +11,7 @@ date: 2015-02-28
 * Name: V-Ball 0.5
 * Type: Rollerball
 * Weight: 9.5g
+* Review date: 2015-02-28
 
 The Vball is one of the many Pilots available. As usual, the performance
 is good, it writes nicely and as expected. The pen is all plastic, clear
