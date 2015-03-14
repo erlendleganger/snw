@@ -5,6 +5,7 @@ use Log::Log4perl qw(:easy);
 use Data::Dumper;
 $Data::Dumper::Indent=1;
 use XML::Simple;
+use File::Copy;
 #use Text::Template qw(fill_in_file);
 #use XML::Parser::Expat;
 #use Time::Piece;
@@ -15,6 +16,7 @@ our $VERSION="0.1";
 use base "Exporter";
 our @EXPORT=qw(hello);
 my $instrumentdatafile="$ENV{LIB_DATADIR}/writing-instrument.xml";
+my $mediumdatafile="$ENV{LIB_DATADIR}/writing-medium.xml";
 my $manufacturerdatafile="$ENV{LIB_DATADIR}/manufacturer.xml";
 my $vendordatafile="$ENV{LIB_DATADIR}/vendor.xml";
 my $gendir="$ENV{WEB_GENDIR}";
@@ -57,10 +59,100 @@ my $logger = get_logger("Bar::Twix");
 #-----------------------------------------------------------------------
 #-----------------------------------------------------------------------
 sub convert_db{
-my $me="convert_db";
-my ($id)=@_;
+   #convert_pen();
+   convert_medium();
+}
+
+#-----------------------------------------------------------------------
+#-----------------------------------------------------------------------
+sub convert_medium{
+my $me="convert_medium";
+#my ($id)=@_;
 $logger->trace("$me: start");
-$logger->trace("$me: id=$id");
+#$logger->trace("$me: id=$id");
+my $xml=new XML::Simple;
+my $f;
+my $reviewtemplatefile="$ENV{LIB_MISCDIR}/tpl-medium-review.md";
+
+#-----------------------------------------------------------------------
+$f=$mediumdatafile;
+die "cannot find $f" if(! -f $f);
+my $xml_medium=$xml->XMLin($f,keyattr=>[qw(id)]);
+open TMP,">/tmp/medium.txt"; print TMP Dumper($xml_medium->{medium});close TMP;
+
+#-----------------------------------------------------------------------
+$f=$manufacturerdatafile;
+die "cannot find $f" if(! -f $f);
+my $xml_manufacturer=$xml->XMLin($f,keyattr=>[qw(id)]);
+open TMP,">/tmp/manufacturer.txt"; print TMP Dumper($xml_manufacturer->{manufacturer});close TMP;
+
+#-----------------------------------------------------------------------
+$f=$vendordatafile;
+die "cannot find $f" if(! -f $f);
+my $xml_vendor=$xml->XMLin($f,keyattr=>[qw(id)]);
+open TMP,">/tmp/vendor.txt"; print TMP Dumper($xml_vendor->{vendor});close TMP;
+
+#-----------------------------------------------------------------------
+for my $id(keys %{$xml_medium->{medium}}){
+
+   #--------------------------------------------------------------------
+   my $manufacturerid=$xml_medium->{medium}{$id}{manufacturer}{id};
+   my $manufacturer=$xml_manufacturer->{manufacturer}{$manufacturerid}{name};
+   my $vendorid=$xml_medium->{medium}{$id}{procurement}{vendor}{id};
+   my $vendor=$xml_vendor->{vendor}{$vendorid}{name};
+   my $name=$xml_medium->{medium}{$id}{name};
+   my $fname="$docsrcdir/handwriting/$id.html.md";
+   my $reviewfname="$topicdir/$id.md";
+   my $reviewtext=$xml_medium->{medium}{$id}{review}{text};
+   $logger->trace("$manufacturer|$name|$vendor");
+
+   #--------------------------------------------------------------------
+   #create sample review text if new item
+   if (! -f $reviewfname){
+      copy $reviewtemplatefile, $reviewfname or die "cannot create $reviewfname from template";
+   }
+   
+   #--------------------------------------------------------------------
+   #get review text from file
+   if (-f $reviewfname){
+      open IN,"<$reviewfname" or die "cannot open $reviewfname";
+      {local $/=undef;$reviewtext =<IN>;}
+      close IN;
+   }
+
+   #--------------------------------------------------------------------
+   open OUT,">$fname" or die "cannot create $fname";
+   print OUT<<EOT
+---
+#$genwarning
+layout: post
+type: handwriting
+category: mediumreview
+title: Review of $manufacturer $name
+date: $xml_medium->{medium}{$id}{review}{date}
+---
+
+* Manufacturer: [$manufacturer](/a/b/c/$manufacturerid.html)
+* Name: $name
+* Review date: $xml_medium->{medium}{$id}{review}{date}
+
+$reviewtext
+EOT
+;
+   close OUT;
+}
+
+#-----------------------------------------------------------------------
+$logger->trace("$me: end");
+}
+
+#-----------------------------------------------------------------------
+#-----------------------------------------------------------------------
+sub convert_pen{
+my $me="convert_pen";
+#my ($id)=@_;
+$logger->trace("$me: start");
+#$logger->trace("$me: id=$id");
 my $xml=new XML::Simple;
 my $f;
 

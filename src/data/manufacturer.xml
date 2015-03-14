@@ -1,4 +1,7 @@
 <manufacturers>
+   <manufacturer id="rhodia">
+      <name>Rhodia</name>
+   </manufacturer>
    <manufacturer id="pilot">
       <name>Pilot</name>
    </manufacturer>
