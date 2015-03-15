@@ -29,6 +29,7 @@ my %pentype;
 $pentype{ball}{gel}="Rollerball gel";
 $pentype{ball}{oil}="Ballpoint";
 $pentype{ball}{water}="Rollerball";
+$pentype{fibre}{liquid}="Fibre";
 $pentype{nib}{m}="Fountain pen";
 
 #-----------------------------------------------------------------------
@@ -199,9 +200,8 @@ $logger->trace("$me: end");
 #-----------------------------------------------------------------------
 sub convert_pen{
 my $me="convert_pen";
-#my ($id)=@_;
 $logger->trace("$me: start");
-#$logger->trace("$me: id=$id");
+my $reviewtemplatefile="$ENV{LIB_MISCDIR}/tpl-pen-review.md";
 my $xml=new XML::Simple;
 my $f;
 
@@ -244,6 +244,20 @@ for my $id(keys %{$xml_instrument->{instrument}}){
    if(!defined $pentype{$tip}{$ink}){
       $logger->fatal("cannot find pentype for $id, $tip, $ink");
       exit 1;
+   }
+
+   #--------------------------------------------------------------------
+   #create sample review text if new item
+   if (! -f $reviewfname){
+      copy $reviewtemplatefile, $reviewfname or die "cannot create $reviewfname from template";
+   }
+   
+   #--------------------------------------------------------------------
+   #get review text from file
+   if (-f $reviewfname){
+      open IN,"<$reviewfname" or die "cannot open $reviewfname";
+      {local $/=undef;$reviewtext =<IN>;}
+      close IN;
    }
 
    #--------------------------------------------------------------------
