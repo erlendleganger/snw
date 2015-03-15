@@ -60,7 +60,54 @@ my $logger = get_logger("Bar::Twix");
 #-----------------------------------------------------------------------
 sub convert_db{
    #convert_pen();
-   convert_medium();
+   #convert_medium();
+   convert_loadout();
+}
+
+#-----------------------------------------------------------------------
+#-----------------------------------------------------------------------
+sub convert_loadout{
+my $me="convert_loadout";
+$logger->trace("$me: start");
+
+#-----------------------------------------------------------------------
+opendir DIR,$topicdir or die "cannot open $topicdir";
+while(my $f=readdir DIR){
+   if($f=~m/loadout-(.*?)\./){
+      my $date=$1;
+      my $text;
+
+      #------------------------------------------------------------------
+      #get loadout text from file
+      {
+         open IN,"<$topicdir/$f" or die "cannot open $f";
+         {local $/=undef;$text =<IN>;}
+         close IN;
+      }
+
+      #-----------------------------------------------------------------
+      my $outfname="$docsrcdir/handwriting/$f";
+      open OUT,">$outfname" or die "cannot create $outfname";
+      print OUT<<EOT
+---
+#$genwarning
+layout: post
+type: handwriting
+category: loadout
+title: Loadout $date
+date: $date
+---
+
+$text
+EOT
+      ;
+      close OUT;
+   }
+}
+closedir DIR;
+
+#-----------------------------------------------------------------------
+$logger->trace("$me: end");
 }
 
 #-----------------------------------------------------------------------
@@ -130,6 +177,7 @@ type: handwriting
 category: mediumreview
 title: Review of $manufacturer $name
 date: $xml_medium->{medium}{$id}{review}{date}
+docid: $id
 ---
 
 * Manufacturer: [$manufacturer](/a/b/c/$manufacturerid.html)
@@ -215,6 +263,7 @@ type: handwriting
 category: penreview
 title: Review of $manufacturer $name
 date: $xml_instrument->{instrument}{$id}{review}{date}
+docid: $id
 ---
 
 * Manufacturer: [$manufacturer](/a/b/c/$manufacturerid.html)

@@ -126,6 +126,14 @@ docpadConfig = {
                    "Last updated: #{@getDateYYYYMMDD(document.date)}. "+
                    "Applicable releases: #{('['+id+'](/release/'+id.replace(/\./g,'')+'-toc/)' for id in @document.releaselist).join(', ')}."
                 
+                #get link for passed document id
+                getLink: (docid) ->
+                   month=1+date.getMonth()
+                   month="0"+month if month<10
+                   day=date.getDate()
+                   day="0"+day if day<10
+                   "#{date.getFullYear()}-#{month}-#{day}"
+                
                 #format dates in yyyy-mm-dd format
                 getDateYYYYMMDD: (date) ->
                    month=1+date.getMonth()
