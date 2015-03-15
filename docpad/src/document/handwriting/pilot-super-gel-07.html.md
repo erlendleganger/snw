@@ -3,14 +3,14 @@
 layout: post
 type: handwriting
 category: penreview
-title: Review of Super Gel 07
-titleshort: Super Gel 07
+title: Review of Pilot Super Gel 07
+titleshort: Pilot Super Gel 07
 date: 2015-02-27
 docid: pilot-super-gel-07
 ---
 
 * Manufacturer: [Pilot](/a/b/c/pilot.html)
-* Name: Super Gel 07
+* Name: Pilot Super Gel 07
 * Type: Rollerball gel
 * Weight: 9.5g
 * Review date: 2015-02-27

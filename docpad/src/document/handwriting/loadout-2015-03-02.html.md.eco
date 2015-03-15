@@ -9,6 +9,7 @@ date: 2015-03-02
 
 * Pens:
 <%- @getPostLink('pilot-v5-hi-techpoint-05') %>,
+<%- @getPostLink('pilot-v-ball-05') %>,
 * Paper: TBD 
 * Other: TBD
 

@@ -3,14 +3,14 @@
 layout: post
 type: handwriting
 category: penreview
-title: Review of Vpen M
-titleshort: Vpen M
+title: Review of Pilot Vpen M
+titleshort: Pilot Vpen M
 date: 2015-03-05
 docid: pilot-vpen-m
 ---
 
 * Manufacturer: [Pilot](/a/b/c/pilot.html)
-* Name: Vpen M
+* Name: Pilot Vpen M
 * Type: Fountain pen
 * Weight: 9.5g
 * Review date: 2015-03-05

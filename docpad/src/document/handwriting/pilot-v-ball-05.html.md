@@ -3,14 +3,14 @@
 layout: post
 type: handwriting
 category: penreview
-title: Review of V-Ball 0.5
-titleshort: V-Ball 0.5
+title: Review of Pilot V-Ball 0.5
+titleshort: Pilot V-Ball 0.5
 date: 2015-02-28
 docid: pilot-v-ball-05
 ---
 
 * Manufacturer: [Pilot](/a/b/c/pilot.html)
-* Name: V-Ball 0.5
+* Name: Pilot V-Ball 0.5
 * Type: Rollerball
 * Weight: 9.5g
 * Review date: 2015-02-28

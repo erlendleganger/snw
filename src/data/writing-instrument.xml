@@ -3,7 +3,7 @@
    <!-- comment -->
    <instrument id="pilot-super-gel-07">
       <manufacturer id="pilot"/>
-      <name>Super Gel 07</name>
+      <name>Pilot Super Gel 07</name>
       <tip>ball</tip>
       <ink>gel</ink>
       <weight>
@@ -24,7 +24,7 @@
    <!-- ============================================================= -->
    <instrument id="pilot-v5-hi-techpoint-05">
       <manufacturer id="pilot"/>
-      <name>V5 Hi-Tecpoint 0.5</name>
+      <name>Pilot V5 Hi-Tecpoint 0.5</name>
       <tip>ball</tip>
       <ink>water</ink>
       <weight>
@@ -45,7 +45,7 @@
    <!-- ============================================================= -->
    <?instrument id="pilot-g2">
       <manufacturer id="pilot"/>
-      <name>G-2</name>
+      <name>Pilot G-2</name>
       <tip>ball</tip>
       <ink>gel</ink>
       <weight>
@@ -68,7 +68,7 @@ Review of Pilot G2.]]></text>
    <!-- ============================================================= -->
    <?instrument id="pilot-juice-038">
       <manufacturer id="pilot"/>
-      <name>Juice 0.38</name>
+      <name>Pilot Juice 0.38</name>
       <tip>ball</tip>
       <ink>gel</ink>
       <weight>
@@ -91,7 +91,7 @@ Review of Pilot Juice.]]></text>
    <!-- ============================================================= -->
    <instrument id="pilot-v-ball-05">
       <manufacturer id="pilot"/>
-      <name>V-Ball 0.5</name>
+      <name>Pilot V-Ball 0.5</name>
       <tip>ball</tip>
       <ink>water</ink>
       <weight>
@@ -112,7 +112,7 @@ Review of Pilot Juice.]]></text>
    <!-- ============================================================= -->
    <instrument id="pilot-vpen-m">
       <manufacturer id="pilot"/>
-      <name>Vpen M</name>
+      <name>Pilot Vpen M</name>
       <tip>nib</tip>
       <ink>m</ink>
       <weight>
@@ -133,7 +133,7 @@ Review of Pilot Juice.]]></text>
    <!-- ============================================================= -->
    <?instrument id="tbd">
       <manufacturer id="tbd"/>
-      <name>tbd</name>
+      <name>Pilot tbd</name>
       <tip>tbd</tip>
       <ink>tbd</ink>
       <weight>

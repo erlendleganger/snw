@@ -3,14 +3,14 @@
 layout: post
 type: handwriting
 category: penreview
-title: Review of V5 Hi-Tecpoint 0.5
-titleshort: V5 Hi-Tecpoint 0.5
+title: Review of Pilot V5 Hi-Tecpoint 0.5
+titleshort: Pilot V5 Hi-Tecpoint 0.5
 date: 2015-02-27
 docid: pilot-v5-hi-techpoint-05
 ---
 
 * Manufacturer: [Pilot](/a/b/c/pilot.html)
-* Name: V5 Hi-Tecpoint 0.5
+* Name: Pilot V5 Hi-Tecpoint 0.5
 * Type: Rollerball
 * Weight: 10.0g
 * Review date: 2015-02-27
