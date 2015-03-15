@@ -131,6 +131,27 @@ Review of Pilot Juice.]]></text>
    </instrument>
 
    <!-- ============================================================= -->
+   <instrument id="pilot-v-signpen">
+      <manufacturer id="pilot"/>
+      <name>Pilot V Signpen</name>
+      <tip>fibre</tip>
+      <ink>liquid</ink>
+      <weight>
+         <total>tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="tbd"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>tbd</date>
+      </procurement>
+      <review>
+         <date>2015-03-15</date>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
    <?instrument id="tbd">
       <manufacturer id="tbd"/>
       <name>Pilot tbd</name>
