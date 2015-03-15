@@ -3,8 +3,10 @@
 layout: post
 type: handwriting
 category: penreview
-title: Review of Pilot Vpen M
+title: Review of Vpen M
+titleshort: Vpen M
 date: 2015-03-05
+docid: pilot-vpen-m
 ---
 
 * Manufacturer: [Pilot](/a/b/c/pilot.html)

@@ -1,4 +1,5 @@
-* Pens: Pilot V5 Hi-Tecpoint 0.5, TBD
+* Pens:
+<%- @getPostLink('pilot-v5-hi-techpoint-05') %>,
 * Paper: TBD 
 * Other: TBD
 

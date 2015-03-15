@@ -1,14 +1,5 @@
----
-#note: generated file, all local modifications will be lost
-layout: post
-type: handwriting
-category: loadout
-title: Loadout 2015-03-09
-date: 2015-03-09
----
-
-* Pens: Pilot Juice 07, Pilot Juice 038, Zebra Sarasa SE 07, Zebra F-301
+* Pens: 
+<%- @getPostLink('pilot-v5-hi-techpoint-05') %>,
 * Paper: Rhodia A7 notebook, A4 notebook
 
 <a href="https://www.flickr.com/photos/131463957@N06/16574458670" title="2015-03-09_07-36-09 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7651/16574458670_e0bd0ae390.jpg" width="375" height="500" alt="2015-03-09_07-36-09"></a>
-

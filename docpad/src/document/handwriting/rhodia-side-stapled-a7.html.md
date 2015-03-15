@@ -3,8 +3,10 @@
 layout: post
 type: handwriting
 category: mediumreview
-title: Review of Rhodia Classic Notebook A7
+title: Review of Classic Notebook A7
+titleshort: Classic Notebook A7
 date: 
+docid: rhodia-side-stapled-a7
 ---
 
 * Manufacturer: [Rhodia](/a/b/c/rhodia.html)

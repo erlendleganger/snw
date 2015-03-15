@@ -59,8 +59,8 @@ my $logger = get_logger("Bar::Twix");
 #-----------------------------------------------------------------------
 #-----------------------------------------------------------------------
 sub convert_db{
-   #convert_pen();
-   #convert_medium();
+   convert_pen();
+   convert_medium();
    convert_loadout();
 }
 
@@ -175,7 +175,8 @@ for my $id(keys %{$xml_medium->{medium}}){
 layout: post
 type: handwriting
 category: mediumreview
-title: Review of $manufacturer $name
+title: Review of $name
+titleshort: $name
 date: $xml_medium->{medium}{$id}{review}{date}
 docid: $id
 ---
@@ -261,7 +262,8 @@ for my $id(keys %{$xml_instrument->{instrument}}){
 layout: post
 type: handwriting
 category: penreview
-title: Review of $manufacturer $name
+title: Review of $name
+titleshort: $name
 date: $xml_instrument->{instrument}{$id}{review}{date}
 docid: $id
 ---

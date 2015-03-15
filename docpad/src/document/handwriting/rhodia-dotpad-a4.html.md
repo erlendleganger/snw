@@ -3,8 +3,10 @@
 layout: post
 type: handwriting
 category: mediumreview
-title: Review of Rhodia dotPad A4
+title: Review of dotPad A4
+titleshort: dotPad A4
 date: 
+docid: rhodia-dotpad-a4
 ---
 
 * Manufacturer: [Rhodia](/a/b/c/rhodia.html)

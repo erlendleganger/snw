@@ -3,8 +3,10 @@
 layout: post
 type: handwriting
 category: penreview
-title: Review of Pilot Super Gel 07
+title: Review of Super Gel 07
+titleshort: Super Gel 07
 date: 2015-02-27
+docid: pilot-super-gel-07
 ---
 
 * Manufacturer: [Pilot](/a/b/c/pilot.html)
