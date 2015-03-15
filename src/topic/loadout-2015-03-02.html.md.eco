@@ -1,5 +1,7 @@
 * Pens:
 <%- @getPostLink('pilot-v5-hi-techpoint-05') %>,
+<%- @getPostLink('pilot-v-ball-05') %>,
+<%- @getPostLink('pilot-v-signpen') %>,
 * Paper: TBD 
 * Other: TBD
 
