@@ -1,7 +1,7 @@
 <mediums>
    <medium id="rhodia-side-stapled-a7">
       <manufacturer id="rhodia"/>
-      <name>Classic Notebook A7</name>
+      <name>Rhodia Classic Notebook A7</name>
       <size>A7 (75x120mm)</size>
       <pagecount>48</pagecount>
       <paper>Rhodia paper 80g</paper>
@@ -16,7 +16,7 @@
 
    <medium id="rhodia-dotpad-a4">
       <manufacturer id="rhodia"/>
-      <name>dotPad A4</name>
+      <name>Rhodia dotPad A4</name>
       <size>A4 (201x297mm)</size>
       <pagecount>80</pagecount>
       <paper>Rhodia paper 80g/m2</paper>
@@ -28,5 +28,50 @@
          <date>2015-01-24</date>
       </procurement>
    </medium>
+
+   <medium id="esselte-protokoll-a4">
+      <manufacturer id="esselte"/>
+      <name>Esselte Protokoll A4</name>
+      <size>A4</size>
+      <pagecount>96</pagecount>
+      <paper>80 g/m2</paper>
+      <ruling>5x5mm grid</ruling>
+      <procurement>
+         <vendor id="cultpens"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>2015-01-01</date>
+      </procurement>
+   </medium>
+
+   <medium id="twsbi-small-softcover-notebook-ruled">
+      <manufacturer id="twsb"/>
+      <name>TWSBI Small Softcover Notebook Ruled</name>
+      <size>tbd</size>
+      <pagecount>tbd</pagecount>
+      <paper>tbd/m2</paper>
+      <ruling>tbd</ruling>
+      <procurement>
+         <vendor id="cultpens"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>2015-01-01</date>
+      </procurement>
+   </medium>
+
+   <?medium id="tbd">
+      <manufacturer id="tbd"/>
+      <name>tbd</name>
+      <size>tbd</size>
+      <pagecount>tbd</pagecount>
+      <paper>tbd/m2</paper>
+      <ruling>tbd</ruling>
+      <procurement>
+         <vendor id="cultpens"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>2015-01-01</date>
+      </procurement>
+   </medium?>
 
 </mediums>

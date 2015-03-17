@@ -1,4 +1,10 @@
 <manufacturers>
+   <manufacturer id="esselte">
+      <name>Esselte</name>
+   </manufacturer>
+   <manufacturer id="pentel">
+      <name>Pentel</name>
+   </manufacturer>
    <manufacturer id="rhodia">
       <name>Rhodia</name>
    </manufacturer>

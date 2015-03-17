@@ -8,11 +8,18 @@ date: 2015-03-02
 ---
 
 * Pens:
-<%- @getPostLink('pilot-v5-hi-techpoint-05') %>,
-<%- @getPostLink('pilot-v-ball-05') %>,
-<%- @getPostLink('pilot-v-signpen') %>,
-* Paper: TBD 
-* Other: TBD
+ * <%- @getPostLink('pentel-energel-needle-tip-05') %>
+ * <%- @getPostLink('pilot-v-signpen') %>
+ * <%- @getPostLink('pilot-v-ball-05') %>
+ * <%- @getPostLink('pilot-v5-hi-techpoint-05') %>
+ * <%- @getPostLink('zebra-f301') %>
+* Paper:
+ * <%- @getPostLink('twsbi-small-softcover-notebook-ruled') %>
+ * <%- @getPostLink('rhodia-side-stapled-a7') %>
+ * <%- @getPostLink('esselte-protokoll-a4') %>
+* Other: 
+ * CultPens pencil case
+ * 30cm steel ruler
 
 <a href="https://www.flickr.com/photos/131463957@N06/16691083665" title="2015-03-02_06-41-35 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8621/16691083665_166fb86491.jpg" width="500" height="375" alt="2015-03-02_06-41-35"></a>
 

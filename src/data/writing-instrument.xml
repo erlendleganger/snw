@@ -140,13 +140,55 @@ Review of Pilot Juice.]]></text>
          <total>tbd</total>
       </weight>
       <procurement>
-         <vendor id="tbd"/>
+         <vendor id="staples-ski"/>
          <price>tbd</price>
          <currency id="nok"/>
          <date>tbd</date>
       </procurement>
       <review>
          <date>2015-03-15</date>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
+   <instrument id="pentel-energel-needle-tip-05">
+      <manufacturer id="pentel"/>
+      <name>Pentel Energel Needle Tip 0.5</name>
+      <tip>ball</tip>
+      <ink>gel</ink>
+      <weight>
+         <total>tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="staples-ski"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>tbd</date>
+      </procurement>
+      <review>
+         <date>2015-03-18</date>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
+   <instrument id="zebra-f301">
+      <manufacturer id="zebra"/>
+      <name>Zebra F-301</name>
+      <tip>ball</tip>
+      <ink>oil</ink>
+      <weight>
+         <total>tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="cultpens"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>tbd</date>
+      </procurement>
+      <review>
+         <date>2015-03-18</date>
          <text/>
       </review>
    </instrument>
@@ -167,8 +209,8 @@ Review of Pilot Juice.]]></text>
          <date>tbd</date>
       </procurement>
       <review>
-         <date>tbd</date>
-         <text><![CDATA[tbd]]></text>
+         <date>2015-01-01</date>
+         <text/>
       </review>
    </instrument?>
 

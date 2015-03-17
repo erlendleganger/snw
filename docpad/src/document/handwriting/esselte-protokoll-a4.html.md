@@ -3,14 +3,14 @@
 layout: post
 type: handwriting
 category: mediumreview
-title: Review of Rhodia Classic Notebook A7
-titleshort: Rhodia Classic Notebook A7
+title: Review of Esselte Protokoll A4
+titleshort: Esselte Protokoll A4
 date: 
-docid: rhodia-side-stapled-a7
+docid: esselte-protokoll-a4
 ---
 
-* Manufacturer: [Rhodia](/a/b/c/rhodia.html)
-* Name: Rhodia Classic Notebook A7
+* Manufacturer: [Esselte](/a/b/c/esselte.html)
+* Name: Esselte Protokoll A4
 * Review date: 
 
 TBD: General comment
