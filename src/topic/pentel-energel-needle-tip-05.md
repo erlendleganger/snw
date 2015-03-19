@@ -26,7 +26,7 @@ Writing sample.
 ---
 Closeup of the pen.
 
-<a href="https://www.flickr.com/photos/131463957@N06/16864669532" title="2015-03-19_07-59-29 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7640/16864669532_9fb709622f_z.jpg" width="640" height="480" alt="2015-03-19_07-59-29"></a>
+<a href="https://www.flickr.com/photos/131463957@N06/16864799221" title="2015-03-19_07-58-04 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8694/16864799221_f59cf18b8a_z.jpg" width="640" height="363" alt="2015-03-19_07-58-04"></a>
 
 ---
 Closeup of the tip area.
