@@ -1,3 +1,6 @@
+TBD: picture of the whole pen
+
+
 TBD: General comment
 
 TBD: The grip area
@@ -11,7 +14,7 @@ TBD: Use for work
 TBD: Conclusion
 
 ---
-Writing sample.
+Writing sample, on the <%- @getPostLink('rhodia-dotpad-a4') %>.
 
 TBD
 
