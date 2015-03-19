@@ -3,15 +3,15 @@
 layout: post
 type: handwriting
 category: penreview
-title: Review of Pentel Energel Needle Tip 0.5
-titleshort: Pentel Energel Needle Tip 0.5
+title: Review of Zebra F-301
+titleshort: Zebra F-301
 date: 2015-03-18
-docid: pentel-energel-needle-tip-05
+docid: zebra-f301
 ---
-
-* Manufacturer: [Pentel](/a/b/c/pentel.html)
-* Name: Pentel Energel Needle Tip 0.5
-* Type: Rollerball gel
+<% noop=1 %>
+* Manufacturer: [](/a/b/c/zebra.html)
+* Name: Zebra F-301
+* Type: Ballpoint
 * Weight: tbdg
 * Review date: 2015-03-18
 

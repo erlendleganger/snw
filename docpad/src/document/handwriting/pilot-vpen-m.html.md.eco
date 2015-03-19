@@ -8,7 +8,7 @@ titleshort: Pilot Vpen M
 date: 2015-03-05
 docid: pilot-vpen-m
 ---
-
+<% noop=1 %>
 * Manufacturer: [Pilot](/a/b/c/pilot.html)
 * Name: Pilot Vpen M
 * Type: Fountain pen

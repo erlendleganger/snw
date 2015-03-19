@@ -8,7 +8,7 @@ titleshort: Pilot V-Ball 0.5
 date: 2015-02-28
 docid: pilot-v-ball-05
 ---
-
+<% noop=1 %>
 * Manufacturer: [Pilot](/a/b/c/pilot.html)
 * Name: Pilot V-Ball 0.5
 * Type: Rollerball

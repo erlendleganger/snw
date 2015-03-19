@@ -8,7 +8,7 @@ titleshort: Pilot Super Gel 07
 date: 2015-02-27
 docid: pilot-super-gel-07
 ---
-
+<% noop=1 %>
 * Manufacturer: [Pilot](/a/b/c/pilot.html)
 * Name: Pilot Super Gel 07
 * Type: Rollerball gel
