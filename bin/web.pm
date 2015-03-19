@@ -234,7 +234,7 @@ for my $id(keys %{$xml_instrument->{instrument}}){
    my $name=$xml_instrument->{instrument}{$id}{name};
    my $tip=$xml_instrument->{instrument}{$id}{tip};
    my $ink=$xml_instrument->{instrument}{$id}{ink};
-   my $fname="$docsrcdir/handwriting/$id.html.md";
+   my $fname="$docsrcdir/handwriting/$id.html.md.eco";
    my $reviewfname="$topicdir/$id.md";
    my $reviewtext=$xml_instrument->{instrument}{$id}{review}{text};
    $logger->trace("$manufacturer|$name|$vendor|$tip|$ink");
@@ -281,7 +281,7 @@ titleshort: $name
 date: $xml_instrument->{instrument}{$id}{review}{date}
 docid: $id
 ---
-
+<% noop=1 %>
 * Manufacturer: [$manufacturer](/a/b/c/$manufacturerid.html)
 * Name: $name
 * Type: $pentype{$tip}{$ink}
