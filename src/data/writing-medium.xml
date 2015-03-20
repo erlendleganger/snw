@@ -12,6 +12,9 @@
          <currency id="nok"/>
          <date>2015-01-24</date>
       </procurement>
+      <review>
+         <date>tbd</date>
+      </review>
    </medium>
 
    <medium id="rhodia-dotpad-a4">
@@ -27,6 +30,9 @@
          <currency id="nok"/>
          <date>2015-01-24</date>
       </procurement>
+      <review>
+         <date>tbd</date>
+      </review>
    </medium>
 
    <medium id="esselte-protokoll-a4">
@@ -42,6 +48,9 @@
          <currency id="nok"/>
          <date>2015-01-01</date>
       </procurement>
+      <review>
+         <date>2015-03-20</date>
+      </review>
    </medium>
 
    <medium id="twsbi-small-softcover-notebook-ruled">
@@ -57,6 +66,9 @@
          <currency id="nok"/>
          <date>2015-01-01</date>
       </procurement>
+      <review>
+         <date>tbd</date>
+      </review>
    </medium>
 
    <?medium id="tbd">
@@ -72,6 +84,9 @@
          <currency id="nok"/>
          <date>2015-01-01</date>
       </procurement>
+      <review>
+         <date>tbd</date>
+      </review>
    </medium?>
 
 </mediums>
