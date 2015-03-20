@@ -11,7 +11,10 @@
    <manufacturer id="pilot">
       <name>Pilot</name>
    </manufacturer>
-   <manufacturer id="twsb">
-      <name>TWSB</name>
+   <manufacturer id="twsbi">
+      <name>TWSBI</name>
+   </manufacturer>
+   <manufacturer id="zebra">
+      <name>Zebra</name>
    </manufacturer>
 </manufacturers>

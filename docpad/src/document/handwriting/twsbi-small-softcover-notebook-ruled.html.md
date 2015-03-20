@@ -9,7 +9,7 @@ date:
 docid: twsbi-small-softcover-notebook-ruled
 ---
 
-* Manufacturer: [TWSB](/a/b/c/twsb.html)
+* Manufacturer: [TWSBI](/a/b/c/twsbi.html)
 * Name: TWSBI Small Softcover Notebook Ruled
 * Review date: 
 

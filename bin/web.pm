@@ -154,7 +154,7 @@ for my $id(keys %{$xml_medium->{medium}}){
    my $fname="$docsrcdir/handwriting/$id.html.md";
    my $reviewfname="$topicdir/$id.md";
    my $reviewtext=$xml_medium->{medium}{$id}{review}{text};
-   $logger->trace("$manufacturer|$name|$vendor");
+   $logger->trace("$manufacturerid|$manufacturer|$vendorid|$vendor|$name");
 
    #--------------------------------------------------------------------
    #create sample review text if new item
@@ -239,7 +239,7 @@ for my $id(keys %{$xml_instrument->{instrument}}){
    my $fname="$docsrcdir/handwriting/$id.html.md.eco";
    my $reviewfname="$topicdir/$id.md";
    my $reviewtext=$xml_instrument->{instrument}{$id}{review}{text};
-   $logger->trace("$manufacturer|$name|$vendor|$tip|$ink");
+   $logger->trace("$manufacturerid|$manufacturer|$vendorid|$vendor|$name|$tip|$ink");
 
    #--------------------------------------------------------------------
    my $pentype;

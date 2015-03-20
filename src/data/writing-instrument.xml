@@ -194,7 +194,7 @@ Review of Pilot Juice.]]></text>
    </instrument>
 
    <!-- ============================================================= -->
-   <?instrument id="tbd">
+   <!-- instrument id="tbd">
       <manufacturer id="tbd"/>
       <name>Pilot tbd</name>
       <tip>tbd</tip>
@@ -212,6 +212,6 @@ Review of Pilot Juice.]]></text>
          <date>2015-01-01</date>
          <text/>
       </review>
-   </instrument?>
+   </instrument -->
 
 </instruments>
