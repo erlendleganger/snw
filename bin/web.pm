@@ -238,7 +238,7 @@ for my $id(keys %{$xml_instrument->{instrument}}){
    my $tip=$xml_instrument->{instrument}{$id}{tip};
    my $ink=$xml_instrument->{instrument}{$id}{ink};
    my $fname="$docsrcdir/handwriting/$id.html.md.eco";
-   my $reviewfname="$topicdir/$id.md";
+   my $reviewfname="$topicdir/instrument/$id.md";
    my $reviewtext=$xml_instrument->{instrument}{$id}{review}{text};
    my $reviewdate=$xml_instrument->{instrument}{$id}{review}{date};
    $logger->trace("$manufacturerid|$vendorid|$name|$tip|$ink|$reviewdate");
