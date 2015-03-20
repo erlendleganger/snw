@@ -1,3 +1,5 @@
+<a href="https://www.flickr.com/photos/131463957@N06/16667851327" title="2015-03-20_07-51-01 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7640/16667851327_cbf3d753a2.jpg" width="500" height="163" alt="2015-03-20_07-51-01"></a>
+
 This is a nice pen. It flows nicely on the paper when writing, with no
 scraping. There is a bit of smudging, probably because of the 0.7 tip;
 maybe the 0.5 or smaller is better.

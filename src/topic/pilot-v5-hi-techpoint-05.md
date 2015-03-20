@@ -1,3 +1,5 @@
+<a href="https://www.flickr.com/photos/131463957@N06/16667826677" title="2015-03-20_07-47-49 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8626/16667826677_8afd36aaef.jpg" width="500" height="143" alt="2015-03-20_07-47-49"></a>
+
 This is a standard Pilot pen, all plastic. The grip is OK, even though
 it is the same plastic material as the rest of the pen, no pattern or
 rubber. The roller ball makes it a smooth writer, no complaints there. The

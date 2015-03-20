@@ -1,3 +1,5 @@
+<a href="https://www.flickr.com/photos/131463957@N06/16687514618" title="2015-03-20_07-46-41 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7651/16687514618_8db8f81aa5.jpg" width="500" height="146" alt="2015-03-20_07-46-41"></a>
+
 The Vball is one of the many Pilots available. As usual, the performance
 is good, it writes nicely and as expected. The pen is all plastic, clear
 and black, good looking, actually.
