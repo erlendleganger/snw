@@ -3,16 +3,17 @@
 layout: post
 type: handwriting
 category: mediumreview
-title: Review of Rhodia Classic Notebook A7
-titleshort: Rhodia Classic Notebook A7
-date: 
-docid: rhodia-side-stapled-a7
+title: Review of Rhodia dotPad A4
+titleshort: Rhodia dotPad A4
+docid: rhodia-dotpad-a4
+date: tbd
 ---
-
 * Manufacturer: [Rhodia](/a/b/c/rhodia.html)
-* Name: Rhodia Classic Notebook A7
-* Review date: 
+* Name: Rhodia dotPad A4
+* Review date: tbd
 
+<!-- noop eco to avoid warning about eco rendering not producing output: -->
+<% noop=1 %>
 TBD: General comment
 
 TBD: Conclusion

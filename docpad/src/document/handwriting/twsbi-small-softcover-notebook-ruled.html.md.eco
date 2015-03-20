@@ -5,14 +5,15 @@ type: handwriting
 category: mediumreview
 title: Review of TWSBI Small Softcover Notebook Ruled
 titleshort: TWSBI Small Softcover Notebook Ruled
-date: 
 docid: twsbi-small-softcover-notebook-ruled
+date: tbd
 ---
-
 * Manufacturer: [TWSBI](/a/b/c/twsbi.html)
 * Name: TWSBI Small Softcover Notebook Ruled
-* Review date: 
+* Review date: tbd
 
+<!-- noop eco to avoid warning about eco rendering not producing output: -->
+<% noop=1 %>
 TBD: General comment
 
 TBD: Conclusion

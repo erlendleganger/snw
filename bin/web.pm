@@ -151,10 +151,11 @@ for my $id(keys %{$xml_medium->{medium}}){
    my $vendorid=$xml_medium->{medium}{$id}{procurement}{vendor}{id};
    my $vendor=$xml_vendor->{vendor}{$vendorid}{name};
    my $name=$xml_medium->{medium}{$id}{name};
-   my $fname="$docsrcdir/handwriting/$id.html.md";
+   my $fname="$docsrcdir/handwriting/$id.html.md.eco";
    my $reviewfname="$topicdir/$id.md";
+   my $reviewdate=$xml_medium->{medium}{$id}{review}{date};
    my $reviewtext=$xml_medium->{medium}{$id}{review}{text};
-   $logger->trace("$manufacturerid|$manufacturer|$vendorid|$vendor|$name");
+   $logger->trace("$manufacturerid|$vendorid|$name|$reviewdate");
 
    #--------------------------------------------------------------------
    #create sample review text if new item
@@ -180,14 +181,14 @@ type: handwriting
 category: mediumreview
 title: Review of $name
 titleshort: $name
-date: $xml_medium->{medium}{$id}{review}{date}
 docid: $id
+date: $reviewdate
 ---
-
 * Manufacturer: [$manufacturer](/a/b/c/$manufacturerid.html)
 * Name: $name
-* Review date: $xml_medium->{medium}{$id}{review}{date}
+* Review date: $reviewdate
 
+$econoop
 $reviewtext
 EOT
 ;
@@ -239,7 +240,8 @@ for my $id(keys %{$xml_instrument->{instrument}}){
    my $fname="$docsrcdir/handwriting/$id.html.md.eco";
    my $reviewfname="$topicdir/$id.md";
    my $reviewtext=$xml_instrument->{instrument}{$id}{review}{text};
-   $logger->trace("$manufacturerid|$manufacturer|$vendorid|$vendor|$name|$tip|$ink");
+   my $reviewdate=$xml_instrument->{instrument}{$id}{review}{date};
+   $logger->trace("$manufacturerid|$vendorid|$name|$tip|$ink|$reviewdate");
 
    #--------------------------------------------------------------------
    my $pentype;
@@ -280,14 +282,14 @@ type: handwriting
 category: penreview
 title: Review of $name
 titleshort: $name
-date: $xml_instrument->{instrument}{$id}{review}{date}
+date: $reviewdate
 docid: $id
 ---
 * Manufacturer: [$manufacturer](/a/b/c/$manufacturerid.html)
 * Name: $name
 * Type: $pentype{$tip}{$ink}
 * Weight: $xml_instrument->{instrument}{$id}{weight}{total}g
-* Review date: $xml_instrument->{instrument}{$id}{review}{date}
+* Review date: $reviewdate
 
 $econoop
 $reviewtext
