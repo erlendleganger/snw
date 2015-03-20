@@ -8,13 +8,14 @@ titleshort: Pilot V-Ball 0.5
 date: 2015-02-28
 docid: pilot-v-ball-05
 ---
-<% noop=1 %>
 * Manufacturer: [Pilot](/a/b/c/pilot.html)
 * Name: Pilot V-Ball 0.5
 * Type: Rollerball
 * Weight: 9.5g
 * Review date: 2015-02-28
 
+<!-- noop eco to avoid warning about eco rendering not producing output: -->
+<% noop=1 %>
 The Vball is one of the many Pilots available. As usual, the performance
 is good, it writes nicely and as expected. The pen is all plastic, clear
 and black, good looking, actually.

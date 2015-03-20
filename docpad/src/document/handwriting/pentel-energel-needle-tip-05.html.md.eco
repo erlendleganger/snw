@@ -8,13 +8,14 @@ titleshort: Pentel Energel Needle Tip 0.5
 date: 2015-03-18
 docid: pentel-energel-needle-tip-05
 ---
-<% noop=1 %>
 * Manufacturer: [Pentel](/a/b/c/pentel.html)
 * Name: Pentel Energel Needle Tip 0.5
 * Type: Rollerball gel
 * Weight: tbdg
 * Review date: 2015-03-18
 
+<!-- noop eco to avoid warning about eco rendering not producing output: -->
+<% noop=1 %>
 <a href="https://www.flickr.com/photos/131463957@N06/16864697672" title="2015-03-19_07-59-29 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8605/16864697672_76aaa7a0b0_z.jpg" width="640" height="182" alt="2015-03-19_07-59-29"></a>
 
 This pen gives a bit messy impression when looking at it, there are many

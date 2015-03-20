@@ -23,6 +23,8 @@ my $gendir="$ENV{WEB_GENDIR}";
 my $docsrcdir=qq($ENV{WEB_DOCPADDIR}/src/document);
 my $topicdir=qq($ENV{LIB_TOPICDIR});
 my $genwarning=qq($ENV{LIB_GENWARN});
+my $econoop=qq(<!-- noop eco to avoid warning about eco rendering not producing output: -->
+<% noop=1 %>);
 
 #-----------------------------------------------------------------------
 my %pentype;
@@ -281,13 +283,13 @@ titleshort: $name
 date: $xml_instrument->{instrument}{$id}{review}{date}
 docid: $id
 ---
-<% noop=1 %>
 * Manufacturer: [$manufacturer](/a/b/c/$manufacturerid.html)
 * Name: $name
 * Type: $pentype{$tip}{$ink}
 * Weight: $xml_instrument->{instrument}{$id}{weight}{total}g
 * Review date: $xml_instrument->{instrument}{$id}{review}{date}
 
+$econoop
 $reviewtext
 EOT
 ;

@@ -8,13 +8,14 @@ titleshort: Zebra F-301
 date: 2015-03-18
 docid: zebra-f301
 ---
-<% noop=1 %>
 * Manufacturer: [](/a/b/c/zebra.html)
 * Name: Zebra F-301
 * Type: Ballpoint
 * Weight: tbdg
 * Review date: 2015-03-18
 
+<!-- noop eco to avoid warning about eco rendering not producing output: -->
+<% noop=1 %>
 TBD: General comment
 
 TBD: The grip area

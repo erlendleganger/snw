@@ -8,13 +8,14 @@ titleshort: Pilot Super Gel 07
 date: 2015-02-27
 docid: pilot-super-gel-07
 ---
-<% noop=1 %>
 * Manufacturer: [Pilot](/a/b/c/pilot.html)
 * Name: Pilot Super Gel 07
 * Type: Rollerball gel
 * Weight: 9.5g
 * Review date: 2015-02-27
 
+<!-- noop eco to avoid warning about eco rendering not producing output: -->
+<% noop=1 %>
 This is a nice pen. It flows nicely on the paper when writing, with no
 scraping. There is a bit of smudging, probably because of the 0.7 tip;
 maybe the 0.5 or smaller is better.

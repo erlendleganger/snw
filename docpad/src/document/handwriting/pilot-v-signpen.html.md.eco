@@ -8,13 +8,14 @@ titleshort: Pilot V Signpen
 date: 2015-03-15
 docid: pilot-v-signpen
 ---
-<% noop=1 %>
 * Manufacturer: [Pilot](/a/b/c/pilot.html)
 * Name: Pilot V Signpen
 * Type: Fibre
 * Weight: tbdg
 * Review date: 2015-03-15
 
+<!-- noop eco to avoid warning about eco rendering not producing output: -->
+<% noop=1 %>
 <a href="https://www.flickr.com/photos/131463957@N06/16841213336" title="2015-03-19_10-36-44 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7595/16841213336_68784b1c2a_z.jpg" width="640" height="123" alt="2015-03-19_10-36-44"></a>
 
 This is a small, felt tip pen with one special usage - signing paper. I have tried it for that at work and fine it to be OK. However, for the paper type I usually sign (regular A4 copy paper), the pen gives too much ink, it bleeds through the paper into the other side. It is not so fluent on that paper type either, there is a bit of resistance when using it. Both of these disadvantages go away when using it with the <%- @getPostLink('rhodia-dotpad-a4') %>, here it is very smooth to use.
