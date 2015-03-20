@@ -89,7 +89,7 @@ while(my $f=readdir DIR){
       }
 
       #-----------------------------------------------------------------
-      my $outfname="$docsrcdir/handwriting/$f";
+      my $outfname="$docsrcdir/handwriting/$f.eco";
       open OUT,">$outfname" or die "cannot create $outfname";
       print OUT<<EOT
 ---
