@@ -1,3 +1,5 @@
+<a href="https://www.flickr.com/photos/131463957@N06/16252897754" title="2015-03-20_08-01-56 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7604/16252897754_17c1a781e9.jpg" width="500" height="161" alt="2015-03-20_08-01-56"></a>
+
 This was the first fountain pen I have used for years. I learned cursive
 writing in school (maybe around 1976), but haven't used fountain pens
 since then. It was therefore quite exiting to pull it out again and try it.
