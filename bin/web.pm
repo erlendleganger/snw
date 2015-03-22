@@ -152,7 +152,7 @@ for my $id(keys %{$xml_medium->{medium}}){
    my $vendor=$xml_vendor->{vendor}{$vendorid}{name};
    my $name=$xml_medium->{medium}{$id}{name};
    my $fname="$docsrcdir/handwriting/$id.html.md.eco";
-   my $reviewfname="$topicdir/$id.md";
+   my $reviewfname="$topicdir/medium/$id.md";
    my $reviewdate=$xml_medium->{medium}{$id}{review}{date};
    my $reviewtext=$xml_medium->{medium}{$id}{review}{text};
    $logger->trace("$manufacturerid|$vendorid|$name|$reviewdate");
