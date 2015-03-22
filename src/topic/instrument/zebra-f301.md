@@ -1,26 +1,23 @@
 <a href="https://www.flickr.com/photos/131463957@N06/16797213646" title="2015-03-15_04-21-23 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7623/16797213646_91b90e1ec9_z.jpg" width="640" height="164" alt="2015-03-15_04-21-23"></a>
 
-TBD: General comment
+I liked this pen the minute I saw it. It is small, with a diameter of ca 8.5mm (9mm in the grip area) and with a nice steel look. The grip area is black plastic, looks nice and works well, due to the grooves. The click action is firm and distinct, with a nice click sound.
 
-TBD: The grip area
+This pen works fine with the <%- @getPostLink('rhodia-side-stapled-a7') %> notebook. It has the perfect size for it and the clip fits well on the durable cover of the notebook. This pen is one of the few where I actually use the clip.
 
-TBD: The line
+When writing in the Rhodia with this pen, I get a nice, connected line with relatively smooth flow. This is not the case if I use it in my <%- @getPostLink('esselte-protokoll-a4') %>, I guess the Esselte has a rougher paper that doesn't fit this pen so well.
 
-TBD: The mechanism
 
-TBD: Use for work
-
-TBD: Conclusion
+The pen has been in use since I got it, it is a permanent part of loadout, together with the Rhodia notebook.
 
 ---
 Writing sample.
 
-TBD
+<a href="https://www.flickr.com/photos/131463957@N06/16881831771" title="2015-03-21_03-56-45 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8705/16881831771_591ab0c398_z.jpg" width="480" height="640" alt="2015-03-21_03-56-45"></a>
 
 ---
-Closeup of the pen.
+The pen and the Rhodia A7 notebook.
 
-TBD
+<a href="https://www.flickr.com/photos/131463957@N06/16200819384" title="2015-03-15_04-29-33 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8719/16200819384_49050f1c84_z.jpg" width="640" height="480" alt="2015-03-15_04-29-33"></a>
 
 ---
 Closeup of the tip area.
