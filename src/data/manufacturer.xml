@@ -17,4 +17,10 @@
    <manufacturer id="zebra">
       <name>Zebra</name>
    </manufacturer>
+   <manufacturer id="cocraft">
+      <name>Cocraft</name>
+   </manufacturer>
+   <manufacturer id="cultpens">
+      <name>Cultpens</name>
+   </manufacturer>
 </manufacturers>

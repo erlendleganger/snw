@@ -17,6 +17,7 @@ use base "Exporter";
 our @EXPORT=qw(hello);
 my $instrumentdatafile="$ENV{LIB_DATADIR}/writing-instrument.xml";
 my $mediumdatafile="$ENV{LIB_DATADIR}/writing-medium.xml";
+my $itemdatafile="$ENV{LIB_DATADIR}/writing-item.xml";
 my $manufacturerdatafile="$ENV{LIB_DATADIR}/manufacturer.xml";
 my $vendordatafile="$ENV{LIB_DATADIR}/vendor.xml";
 my $gendir="$ENV{WEB_GENDIR}";
@@ -62,9 +63,10 @@ my $logger = get_logger("Bar::Twix");
 #-----------------------------------------------------------------------
 #-----------------------------------------------------------------------
 sub convert_db{
-   convert_pen();
-   convert_medium();
-   convert_loadout();
+   #convert_pen();
+   #convert_medium();
+   #convert_loadout();
+   convert_item();
 }
 
 #-----------------------------------------------------------------------
@@ -108,6 +110,92 @@ EOT
    }
 }
 closedir DIR;
+
+#-----------------------------------------------------------------------
+$logger->trace("$me: end");
+}
+
+#-----------------------------------------------------------------------
+#-----------------------------------------------------------------------
+sub convert_item{
+my $me="convert_item";
+#my ($id)=@_;
+$logger->trace("$me: start");
+#$logger->trace("$me: id=$id");
+my $xml=new XML::Simple;
+my $f;
+my $reviewtemplatefile="$ENV{LIB_MISCDIR}/tpl-item-review.md";
+
+#-----------------------------------------------------------------------
+$f=$itemdatafile;
+die "cannot find $f" if(! -f $f);
+my $xml_item=$xml->XMLin($f,keyattr=>[qw(id)]);
+open TMP,">/tmp/item.txt"; print TMP Dumper($xml_item->{item});close TMP;
+
+#-----------------------------------------------------------------------
+$f=$manufacturerdatafile;
+die "cannot find $f" if(! -f $f);
+my $xml_manufacturer=$xml->XMLin($f,keyattr=>[qw(id)]);
+open TMP,">/tmp/manufacturer.txt"; print TMP Dumper($xml_manufacturer->{manufacturer});close TMP;
+
+#-----------------------------------------------------------------------
+$f=$vendordatafile;
+die "cannot find $f" if(! -f $f);
+my $xml_vendor=$xml->XMLin($f,keyattr=>[qw(id)]);
+open TMP,">/tmp/vendor.txt"; print TMP Dumper($xml_vendor->{vendor});close TMP;
+
+#-----------------------------------------------------------------------
+for my $id(keys %{$xml_item->{item}}){
+
+   #--------------------------------------------------------------------
+   my $manufacturerid=$xml_item->{item}{$id}{manufacturer}{id};
+   my $manufacturer=$xml_manufacturer->{manufacturer}{$manufacturerid}{name};
+   my $vendorid=$xml_item->{item}{$id}{procurement}{vendor}{id};
+   my $vendor=$xml_vendor->{vendor}{$vendorid}{name};
+   my $name=$xml_item->{item}{$id}{name};
+   my $fname="$docsrcdir/handwriting/$id.html.md.eco";
+   my $reviewfname="$topicdir/item/$id.md";
+   my $reviewdate=$xml_item->{item}{$id}{review}{date};
+   $logger->trace("$manufacturerid|$vendorid|$name|$reviewdate");
+
+   #--------------------------------------------------------------------
+   #create sample review text if new item
+   if (! -f $reviewfname){
+      copy $reviewtemplatefile, $reviewfname or die "cannot create $reviewfname from template $reviewtemplatefile";
+   }
+   
+   #--------------------------------------------------------------------
+   #get review text from file
+   my $reviewtext;
+   if (-f $reviewfname){
+      open IN,"<$reviewfname" or die "cannot open $reviewfname";
+      {local $/=undef;$reviewtext =<IN>;}
+      close IN;
+   }
+
+   #--------------------------------------------------------------------
+   open OUT,">$fname" or die "cannot create $fname";
+   print OUT<<EOT
+---
+#$genwarning
+layout: post
+type: handwriting
+category: item
+title: $name
+titleshort: $name
+docid: $id
+date: $reviewdate
+---
+* Manufacturer: [$manufacturer](/a/b/c/$manufacturerid.html)
+* Name: $name
+* Date: $reviewdate
+
+$econoop
+$reviewtext
+EOT
+;
+   close OUT;
+}
 
 #-----------------------------------------------------------------------
 $logger->trace("$me: end");

@@ -37,3 +37,13 @@ The loadout pages are listed in chronological order.
 </ul>
 </nav>
 
+## Miscellaneous items
+
+<nav class="linklist">
+<ul>
+<% for inx in @getCollection("documents").findAllLive({type:'handwriting',category:'item'},[{date:-1}]).toJSON(): %>
+<li><a href="<%= inx.url %>"><%= inx.title %></a></li>
+<% end %>
+</ul>
+</nav>
+

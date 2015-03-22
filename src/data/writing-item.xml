@@ -1,0 +1,45 @@
+<items>
+
+   <item id="cocraft-ruler-30cm">
+      <manufacturer id="cocraft"/>
+      <name>Cocraft 30cm steel ruler</name>
+      <procurement>
+         <vendor id="cultpens"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>2015-01-01</date>
+      </procurement>
+      <review>
+         <date>2015-03-22</date>
+      </review>
+   </item>
+
+   <item id="cultpens-rubber-case">
+      <manufacturer id="cultpens"/>
+      <name>Cultpens Rubber Pencilcase</name>
+      <procurement>
+         <vendor id="cultpens"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>2015-01-01</date>
+      </procurement>
+      <review>
+         <date>2015-03-22</date>
+      </review>
+   </item>
+
+   <?item id="tbd">
+      <manufacturer id="tbd"/>
+      <name>tbd</name>
+      <procurement>
+         <vendor id="cultpens"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>2015-01-01</date>
+      </procurement>
+      <review>
+         <date>tbd</date>
+      </review>
+   </item?>
+
+</items>
