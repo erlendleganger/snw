@@ -13,7 +13,7 @@
          <date>2015-01-24</date>
       </procurement>
       <review>
-         <date>tbd</date>
+         <date>2015-03-19</date>
       </review>
    </medium>
 
@@ -56,10 +56,10 @@
    <medium id="twsbi-small-softcover-notebook-ruled">
       <manufacturer id="twsbi"/>
       <name>TWSBI Small Softcover Notebook Ruled</name>
-      <size>tbd</size>
-      <pagecount>tbd</pagecount>
-      <paper>tbd/m2</paper>
-      <ruling>tbd</ruling>
+      <size>132mm wide, 209mm tall, 15mm thick</size>
+      <pagecount>240</pagecount>
+      <paper>70g/m2</paper>
+      <ruling>6mm ruled</ruling>
       <procurement>
          <vendor id="cultpens"/>
          <price>tbd</price>
@@ -67,7 +67,7 @@
          <date>2015-01-01</date>
       </procurement>
       <review>
-         <date>tbd</date>
+         <date>2015-03-22</date>
       </review>
    </medium>
 
