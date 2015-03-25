@@ -27,7 +27,7 @@ docpadConfig = {
                         ]
 
                         # The default title of our website
-                        title: "SSC Support Web"
+                        title: "Silent Norwegian"
 
                         # The website description (for SEO)
                         description: """
