@@ -7,9 +7,14 @@ title: Loadout 2015-03-09
 date: 2015-03-09
 ---
 
-* Pens: 
-<%- @getPostLink('pilot-v5-hi-techpoint-05') %>,
-* Paper: Rhodia A7 notebook, A4 notebook
+* Pens:
+ * Pilot Juice .7 (brown)
+ * Pilot Juice .38 (blue-black)
+ * Zebra Zarasa SE 07 (violet)
+ * <%- @getPostLink('zebra-f301') %>
+* Paper:
+ * <%- @getPostLink('rhodia-side-stapled-a7') %>
+ * <%- @getPostLink('esselte-protokoll-a4') %>
 
 <a href="https://www.flickr.com/photos/131463957@N06/16574458670" title="2015-03-09_07-36-09 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7651/16574458670_e0bd0ae390.jpg" width="375" height="500" alt="2015-03-09_07-36-09"></a>
 
