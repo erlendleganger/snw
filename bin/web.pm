@@ -63,9 +63,9 @@ my $logger = get_logger("Bar::Twix");
 #-----------------------------------------------------------------------
 #-----------------------------------------------------------------------
 sub convert_db{
-   #convert_pen();
-   #convert_medium();
-   #convert_loadout();
+   convert_pen();
+   convert_medium();
+   convert_loadout();
    convert_item();
 }
 
