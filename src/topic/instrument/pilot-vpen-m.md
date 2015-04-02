@@ -31,7 +31,7 @@ I was looking for when it came to nib size, I will find out later if I
 generally prefer finer nibs.
 
 ---
-Writing sample.
+Writing sample. Review paper: <%- @getPostLink('rhodia-dotpad-a4') %>.
 
 <a href="https://www.flickr.com/photos/131463957@N06/16107703093" title="2015-03-05_11-06-03 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8577/16107703093_cab1533e5d.jpg" width="375" height="500" alt="2015-03-05_11-06-03"></a>
 

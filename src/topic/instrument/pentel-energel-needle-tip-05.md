@@ -19,7 +19,7 @@ This is an OK pen that I could use for work, but there are better
 alternatives.
 
 ---
-Writing sample.
+Writing sample. Review paper: <%- @getPostLink('rhodia-dotpad-a4') %>.
 
 <a href="https://www.flickr.com/photos/131463957@N06/16839352176" title="2015-03-19_06-37-26 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7641/16839352176_86a992eac5_z.jpg" width="480" height="640" alt="2015-03-19_06-37-26"></a>
 

@@ -28,7 +28,7 @@ When writing in the Rhodia with this pen, I get a nice, connected line with rela
 The pen has been in use since I got it, it is a permanent part of loadout, together with the Rhodia notebook.
 
 ---
-Writing sample.
+Writing sample. Review paper: <%- @getPostLink('rhodia-dotpad-a4') %>.
 
 <a href="https://www.flickr.com/photos/131463957@N06/16881831771" title="2015-03-21_03-56-45 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8705/16881831771_591ab0c398_z.jpg" width="480" height="640" alt="2015-03-21_03-56-45"></a>
 
