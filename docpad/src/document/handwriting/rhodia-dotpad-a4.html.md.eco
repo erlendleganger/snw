@@ -6,25 +6,21 @@ category: mediumreview
 title: Review of Rhodia dotPad A4
 titleshort: Rhodia dotPad A4
 docid: rhodia-dotpad-a4
-date: tbd
+date: 2015-04-02
 ---
 * Manufacturer: [Rhodia](/a/b/c/rhodia.html)
 * Name: Rhodia dotPad A4
-* Review date: tbd
+* Paper: Rhodia paper 80g/m2
+* Size: A4 (201x297mm)
+* Ruling: 5x5mm grid
+* Page count: 80
+* Review date: 2015-04-02
 
 <!-- noop eco to avoid warning about eco rendering not producing output: -->
 <% noop=1 %>
-TBD: General comment
+This is a very nice notepad. The format is A4 with a bit added on the top, so when you turn the page over the top, the remaining area is still A4. There is no perforation, so when a page is filled, you turn it over.
 
-TBD: Conclusion
+The paper has a dot-grid, this is a bit unusual to me, I need to get used to it.
 
----
-Writing sample.
-
-TBD
-
----
-TBD
-
-TBD
+The paper is 80g/m2, very smooth to write on.
 

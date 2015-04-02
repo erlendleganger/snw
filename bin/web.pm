@@ -243,6 +243,10 @@ for my $id(keys %{$xml_medium->{medium}}){
    my $reviewfname="$topicdir/medium/$id.md";
    my $reviewdate=$xml_medium->{medium}{$id}{review}{date};
    my $reviewtext=$xml_medium->{medium}{$id}{review}{text};
+   my $pagecount=$xml_medium->{medium}{$id}{pagecount};
+   my $paper=$xml_medium->{medium}{$id}{paper};
+   my $ruling=$xml_medium->{medium}{$id}{ruling};
+   my $size=$xml_medium->{medium}{$id}{size};
    $logger->trace("$manufacturerid|$vendorid|$name|$reviewdate");
 
    #--------------------------------------------------------------------
@@ -274,6 +278,10 @@ date: $reviewdate
 ---
 * Manufacturer: [$manufacturer](/a/b/c/$manufacturerid.html)
 * Name: $name
+* Paper: $paper
+* Size: $size
+* Ruling: $ruling
+* Page count: $pagecount
 * Review date: $reviewdate
 
 $econoop

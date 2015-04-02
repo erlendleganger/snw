@@ -10,6 +10,10 @@ date: 2015-03-20
 ---
 * Manufacturer: [Esselte](/a/b/c/esselte.html)
 * Name: Esselte Protokoll A4
+* Paper: 80 g/m2
+* Size: A4
+* Ruling: 5x5mm grid
+* Page count: 96
 * Review date: 2015-03-20
 
 <!-- noop eco to avoid warning about eco rendering not producing output: -->

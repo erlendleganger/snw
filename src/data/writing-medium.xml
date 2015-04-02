@@ -4,7 +4,7 @@
       <name>Rhodia Classic Notebook A7</name>
       <size>A7 (75x120mm)</size>
       <pagecount>48</pagecount>
-      <paper>Rhodia paper 80g</paper>
+      <paper>Rhodia paper 80g/m2</paper>
       <ruling>5x5mm grid</ruling>
       <procurement>
          <vendor id="cultpens"/>
@@ -31,7 +31,7 @@
          <date>2015-01-24</date>
       </procurement>
       <review>
-         <date>tbd</date>
+         <date>2015-04-02</date>
       </review>
    </medium>
 
