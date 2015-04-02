@@ -76,7 +76,8 @@ my $me="convert_loadout";
 $logger->trace("$me: start");
 
 #-----------------------------------------------------------------------
-opendir DIR,$topicdir or die "cannot open $topicdir";
+my $loadoutdir="$topicdir/loadout";
+opendir DIR,$loadoutdir or die "cannot open $loadoutdir";
 while(my $f=readdir DIR){
    if($f=~m/loadout-(.*?)\./){
       my $date=$1;
@@ -85,7 +86,7 @@ while(my $f=readdir DIR){
       #------------------------------------------------------------------
       #get loadout text from file
       {
-         open IN,"<$topicdir/$f" or die "cannot open $f";
+         open IN,"<$loadoutdir/$f" or die "cannot open $f";
          {local $/=undef;$text =<IN>;}
          close IN;
       }
