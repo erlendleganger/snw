@@ -194,7 +194,28 @@ Review of Pilot Juice.]]></text>
    </instrument>
 
    <!-- ============================================================= -->
-   <!-- instrument id="tbd">
+   <instrument id="pentel-energel-bl107">
+      <manufacturer id="pentel"/>
+      <name>Pentel EnerGel X BL107</name>
+      <tip>ball</tip>
+      <ink>gel</ink>
+      <weight>
+         <total>tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="cultpens"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>tbd</date>
+      </procurement>
+      <review>
+         <date>2015-04-02</date>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
+   <?instrument id="tbd">
       <manufacturer id="tbd"/>
       <name>Pilot tbd</name>
       <tip>tbd</tip>
@@ -212,6 +233,6 @@ Review of Pilot Juice.]]></text>
          <date>2015-01-01</date>
          <text/>
       </review>
-   </instrument -->
+   </instrument?>
 
 </instruments>
