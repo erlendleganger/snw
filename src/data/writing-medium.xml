@@ -1,5 +1,23 @@
 <mediums>
-   <medium id="rhodia-side-stapled-a7">
+   <medium id="field-notes-original">
+      <manufacturer id="coudal"/>
+      <name>Field Notes Original</name>
+      <size>89mm x 140mm</size>
+      <pagecount>48</pagecount>
+      <paper>Field notes</paper>
+      <ruling>Plain, 6.4mm ruled, 4.7mm x 4.7mm grid</ruling>
+      <procurement>
+         <vendor id="bureau-direct"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>2015-01-24</date>
+      </procurement>
+      <review>
+         <date>2015-04-03</date>
+      </review>
+   </medium>
+
+    <medium id="rhodia-side-stapled-a7">
       <manufacturer id="rhodia"/>
       <name>Rhodia Classic Notebook A7</name>
       <size>A7 (75x120mm)</size>

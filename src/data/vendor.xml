@@ -2,6 +2,9 @@
    <vendor id="staples-ski">
       <name>Staples Ski</name>
    </vendor>
+   <vendor id="bureau-direct">
+      <name>Bureau Direct</name>
+   </vendor>
    <vendor id="staples">
       <name>Staples</name>
    </vendor>

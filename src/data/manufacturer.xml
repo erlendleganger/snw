@@ -2,6 +2,9 @@
    <manufacturer id="esselte">
       <name>Esselte</name>
    </manufacturer>
+   <manufacturer id="coudal">
+      <name>Coudal Partners</name>
+   </manufacturer>
    <manufacturer id="pentel">
       <name>Pentel</name>
    </manufacturer>
