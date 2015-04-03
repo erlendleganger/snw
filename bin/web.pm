@@ -396,18 +396,22 @@ EOT
 }
 
 #-----------------------------------------------------------------------
-my @db;
-for my $id(keys %{$xml_instrument->{instrument}}){
-   my $manufacturerid=$xml_instrument->{instrument}{$id}{manufacturer}{id};
-   my $manufacturer=$xml_manufacturer->{manufacturer}{$manufacturerid}{name};
-   my $name=$xml_instrument->{instrument}{$id}{name};
-   push @db,qq($manufacturer $name);
-}
-my $fname="$gendir/pen-list.txt";
+my $fname="$gendir/pen-names.txt";
 open OUT,">$fname" or die("cannot create $fname");
 print OUT "#list of pens\n";
-print OUT join "\n", sort @db;
-print OUT "\n";
+for my $id(
+   sort{$xml_instrument->{instrument}{$a}{name} cmp $xml_instrument->{instrument}{$b}{name}} keys %{$xml_instrument->{instrument}}){
+   print OUT "$xml_instrument->{instrument}{$id}{name}\n";
+}
+close OUT;
+
+#-----------------------------------------------------------------------
+$fname="$gendir/pen-links.txt";
+open OUT,">$fname" or die("cannot create $fname");
+print OUT "#list of pen links\n";
+for my $id(sort keys %{$xml_instrument->{instrument}}){
+   print OUT "<%- \@getPostLink('$id') %>\n";
+}
 close OUT;
 
 #-----------------------------------------------------------------------
