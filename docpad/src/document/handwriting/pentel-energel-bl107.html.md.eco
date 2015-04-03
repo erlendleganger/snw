@@ -16,7 +16,7 @@ docid: pentel-energel-bl107
 
 <!-- noop eco to avoid warning about eco rendering not producing output: -->
 <% noop=1 %>
-TBD: picture of the whole pen
+<a href="https://www.flickr.com/photos/131463957@N06/16997465056" title="2015-04-03_06-00-57 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7654/16997465056_90d1ceec88_z.jpg" width="640" height="141" alt="2015-04-03_06-00-57"></a>
 
 This is a very nice pen, one of my favourites at the moment. This is mainly because of the feel when writing, it runs very smoothly across the paper. This is a 0.7 gel tip, so it is a bit wide for my taste, but I can live with that. The colour is really beautiful - I like violet, probably my favourite ink colour.
 
@@ -30,20 +30,25 @@ In general, this is a very nice gel pen: nice flow, fine line, beautiful colour,
 ---
 Writing sample, on the <%- @getPostLink('rhodia-dotpad-a4') %>.
 
-TBD
+<a href="https://www.flickr.com/photos/131463957@N06/16834660879" title="2015-04-03_05-49-41 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7638/16834660879_297514a746_z.jpg" width="640" height="480" alt="2015-04-03_05-49-41"></a>
 
 ---
 Closeup of the pen.
 
-TBD
+<a href="https://www.flickr.com/photos/131463957@N06/16400877463" title="2015-04-03_06-01-21 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7648/16400877463_2d4fb3331e.jpg" width="500" height="375" alt="2015-04-03_06-01-21"></a>
 
 ---
 Closeup of the tip area.
 
-TBD
+<a href="https://www.flickr.com/photos/131463957@N06/16398597384" title="2015-04-03_06-01-45 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8739/16398597384_8ee946c729.jpg" width="500" height="375" alt="2015-04-03_06-01-45"></a>
 
 ---
-TBD
+The pen clipped to a <%- @getPostLink('field-notes-original') %>.
 
-TBD
+<a href="https://www.flickr.com/photos/131463957@N06/16833491710" title="2015-04-03_06-00-10 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8733/16833491710_61fd94e0c1.jpg" width="500" height="375" alt="2015-04-03_06-00-10"></a>
+
+---
+The pen inside the same <%- @getPostLink('field-notes-original') %>.
+
+<a href="https://www.flickr.com/photos/131463957@N06/16834805619" title="2015-04-03_06-00-57 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8703/16834805619_45479e7d81.jpg" width="500" height="375" alt="2015-04-03_06-00-57"></a>
 
