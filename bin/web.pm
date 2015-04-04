@@ -199,6 +199,15 @@ EOT
 }
 
 #-----------------------------------------------------------------------
+my $fname="$gendir/item-links.txt";
+open OUT,">$fname" or die("cannot create $fname");
+print OUT "#list of item links\n";
+for my $id(sort keys %{$xml_item->{item}}){
+   print OUT "<%- \@getPostLink('$id') %>\n";
+}
+close OUT;
+
+#-----------------------------------------------------------------------
 $logger->trace("$me: end");
 }
 
@@ -291,6 +300,15 @@ EOT
 ;
    close OUT;
 }
+
+#-----------------------------------------------------------------------
+my $fname="$gendir/medium-links.txt";
+open OUT,">$fname" or die("cannot create $fname");
+print OUT "#list of medium links\n";
+for my $id(sort keys %{$xml_medium->{medium}}){
+   print OUT "<%- \@getPostLink('$id') %>\n";
+}
+close OUT;
 
 #-----------------------------------------------------------------------
 $logger->trace("$me: end");
