@@ -26,4 +26,7 @@
    <manufacturer id="cultpens">
       <name>Cultpens</name>
    </manufacturer>
+   <manufacturer id="bic">
+      <name>Bic</name>
+   </manufacturer>
 </manufacturers>

@@ -236,6 +236,27 @@ Review of Pilot Juice.]]></text>
    </instrument>
 
    <!-- ============================================================= -->
+   <instrument id="bic-clic">
+      <manufacturer id="bic"/>
+      <name>Bic Clic</name>
+      <tip>ball</tip>
+      <ink>oil</ink>
+      <weight>
+         <total>tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="bureaudirect"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>tbd</date>
+      </procurement>
+      <review>
+         <date>2015-04-04</date>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
    <?instrument id="tbd">
       <manufacturer id="tbd"/>
       <name>Pilot tbd</name>
