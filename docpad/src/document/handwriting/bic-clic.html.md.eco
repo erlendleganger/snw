@@ -7,6 +7,7 @@ title: Review of Bic Clic
 titleshort: Bic Clic
 date: 2015-04-04
 docid: bic-clic
+status: ongoing
 ---
 * Manufacturer: [Bic](/a/b/c/bic.html)
 * Name: Bic Clic
@@ -23,7 +24,7 @@ This is a really cheap pen. It has the Field Notes branding and was an included 
 A cheap pen that will go into storage.
 
 ---
-Writing sample, on the <%- @getPostLink('twsbi-small-softcover-notebook-ruled') %>.
+Writing sample, in the <%- @getPostLink('twsbi-small-softcover-notebook-ruled') %>.
 
 <a href="https://www.flickr.com/photos/131463957@N06/17003076446" title="2015-04-04_01-12-43 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8716/17003076446_4a49d03285_z.jpg" width="640" height="480" alt="2015-04-04_01-12-43"></a>
 

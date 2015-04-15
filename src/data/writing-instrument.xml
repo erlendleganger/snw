@@ -17,7 +17,7 @@
       </procurement>
       <review>
          <date>2015-02-27</date>
-         <text></text>
+         <status>queued</status>
       </review>
    </instrument>
 
@@ -38,55 +38,10 @@
       </procurement>
       <review>
          <date>2015-02-27</date>
+         <status>ongoing</status>
          <text/>
       </review>
    </instrument>
-
-   <!-- ============================================================= -->
-   <?instrument id="pilot-g2">
-      <manufacturer id="pilot"/>
-      <name>Pilot G-2</name>
-      <tip>ball</tip>
-      <ink>gel</ink>
-      <weight>
-         <total>90</total>
-      </weight>
-      <procurement>
-         <vendor id="staples-ski"/>
-         <price>TBD</price>
-         <currency id="nok"/>
-         <date>2015-01-29</date>
-      </procurement>
-      <review>
-         <date>2015-02-27</date>
-         <text>
-<![CDATA[
-Review of Pilot G2.]]></text>
-      </review>
-   </instrument?>
-
-   <!-- ============================================================= -->
-   <?instrument id="pilot-juice-038">
-      <manufacturer id="pilot"/>
-      <name>Pilot Juice 0.38</name>
-      <tip>ball</tip>
-      <ink>gel</ink>
-      <weight>
-         <total>90</total>
-      </weight>
-      <procurement>
-         <vendor id="staples-ski"/>
-         <price>TBD</price>
-         <currency id="nok"/>
-         <date>2015-01-29</date>
-      </procurement>
-      <review>
-         <date>2015-02-28</date>
-         <text>
-<![CDATA[
-Review of Pilot Juice.]]></text>
-      </review>
-   </instrument?>
 
    <!-- ============================================================= -->
    <instrument id="pilot-v-ball-05">
@@ -105,7 +60,7 @@ Review of Pilot Juice.]]></text>
       </procurement>
       <review>
          <date>2015-02-28</date>
-         <text/>
+         <status>ongoing</status>
       </review>
    </instrument>
 
@@ -126,7 +81,7 @@ Review of Pilot Juice.]]></text>
       </procurement>
       <review>
          <date>2015-03-05</date>
-         <text/>
+         <status>ongoing</status>
       </review>
    </instrument>
 
@@ -146,6 +101,7 @@ Review of Pilot Juice.]]></text>
          <date>tbd</date>
       </procurement>
       <review>
+         <status>ongoing</status>
          <date>2015-03-15</date>
          <text/>
       </review>
@@ -167,6 +123,7 @@ Review of Pilot Juice.]]></text>
          <date>tbd</date>
       </procurement>
       <review>
+         <status>ongoing</status>
          <date>2015-03-18</date>
          <text/>
       </review>
@@ -188,6 +145,7 @@ Review of Pilot Juice.]]></text>
          <date>tbd</date>
       </procurement>
       <review>
+         <status>ongoing</status>
          <date>2015-03-18</date>
          <text/>
       </review>
@@ -209,6 +167,7 @@ Review of Pilot Juice.]]></text>
          <date>tbd</date>
       </procurement>
       <review>
+         <status>ongoing</status>
          <date>2015-04-02</date>
          <text/>
       </review>
@@ -230,6 +189,7 @@ Review of Pilot Juice.]]></text>
          <date>tbd</date>
       </procurement>
       <review>
+         <status>ongoing</status>
          <date>2015-04-04</date>
          <text/>
       </review>
@@ -251,8 +211,8 @@ Review of Pilot Juice.]]></text>
          <date>tbd</date>
       </procurement>
       <review>
+         <status>ongoing</status>
          <date>2015-04-04</date>
-         <text/>
       </review>
    </instrument>
 
@@ -273,6 +233,8 @@ Review of Pilot Juice.]]></text>
       </procurement>
       <review>
          <date>2015-01-01</date>
+         <!-- queued, ongoing, done -->
+         <status>queued</status>
          <text/>
       </review>
    </instrument?>

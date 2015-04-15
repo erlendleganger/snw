@@ -26,6 +26,7 @@ my $topicdir=qq($ENV{LIB_TOPICDIR});
 my $genwarning=qq($ENV{LIB_GENWARN});
 my $econoop=qq(<!-- noop eco to avoid warning about eco rendering not producing output: -->
 <% noop=1 %>);
+my $defaultreviewstatus="queued";
 
 #-----------------------------------------------------------------------
 my %pentype;
@@ -356,6 +357,7 @@ for my $id(keys %{$xml_instrument->{instrument}}){
    my $reviewfname="$topicdir/instrument/$id.md";
    my $reviewtext=$xml_instrument->{instrument}{$id}{review}{text};
    my $reviewdate=$xml_instrument->{instrument}{$id}{review}{date};
+   my $reviewstatus=$xml_instrument->{instrument}{$id}{review}{status}||$defaultreviewstatus;
    $logger->trace("$manufacturerid|$vendorid|$name|$tip|$ink|$reviewdate");
 
    #--------------------------------------------------------------------
@@ -399,6 +401,7 @@ title: Review of $name
 titleshort: $name
 date: $reviewdate
 docid: $id
+status: $reviewstatus
 ---
 * Manufacturer: [$manufacturer](/a/b/c/$manufacturerid.html)
 * Name: $name

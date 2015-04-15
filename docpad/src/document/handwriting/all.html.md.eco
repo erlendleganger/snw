@@ -4,12 +4,32 @@ layout: page
 pageOrder: 30
 ---
 
+All reviews below are listed in chronological order.
+
 ## Pen reviews
 
-The reviews are listed in chronological order.
+Completed reviews:
 <nav class="linklist">
 <ul>
-<% for inx in @getCollection("documents").findAllLive({type:'handwriting',category:'penreview'},[{date:-1}]).toJSON(): %>
+<% for inx in @getCollection("documents").findAllLive({type:'handwriting',category:'penreview',status:'done'},[{date:-1}]).toJSON(): %>
+<li>[<%=  @getDateYYYYMMDD(inx.date) %>] <a href="<%= inx.url %>"><%= inx.title %></a></li>
+<% end %>
+</ul>
+</nav>
+
+Ongoing reviews:
+<nav class="linklist">
+<ul>
+<% for inx in @getCollection("documents").findAllLive({type:'handwriting',category:'penreview',status:'ongoing'},[{date:-1}]).toJSON(): %>
+<li>[<%=  @getDateYYYYMMDD(inx.date) %>] <a href="<%= inx.url %>"><%= inx.title %></a></li>
+<% end %>
+</ul>
+</nav>
+
+Queued reviews:
+<nav class="linklist">
+<ul>
+<% for inx in @getCollection("documents").findAllLive({type:'handwriting',category:'penreview',status:'queued'},[{date:-1}]).toJSON(): %>
 <li>[<%=  @getDateYYYYMMDD(inx.date) %>] <a href="<%= inx.url %>"><%= inx.title %></a></li>
 <% end %>
 </ul>
@@ -17,7 +37,6 @@ The reviews are listed in chronological order.
 
 ## Paper reviews
 
-The reviews are listed in chronological order.
 <nav class="linklist">
 <ul>
 <% for inx in @getCollection("documents").findAllLive({type:'handwriting',category:'mediumreview'},[{date:-1}]).toJSON(): %>
