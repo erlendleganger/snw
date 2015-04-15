@@ -1,33 +1,26 @@
-TBD: picture of the whole pen
+This review is currently queued, no contents has been added yet.
 
-TBD: General comment
-
-TBD: The grip area
-
-TBD: The line
-
-TBD: The mechanism
-
-TBD: Use for work
-
-TBD: Conclusion
+Topics to add:
+* Picture of the whole pen
+* General comment
+* The grip area
+* The line
+* The mechanism
+* Use for work
+* Conclusion
 
 ---
 Writing sample, on the <%- @getPostLink('rhodia-dotpad-a4') %>.
 
-TBD
+TBD: Add picture here
 
 ---
 Closeup of the pen.
 
-TBD
+TBD: Add picture here
 
 ---
 Closeup of the tip area.
 
-TBD
+TBD: Add picture here
 
----
-TbdTitle
-
-TbdPicture
