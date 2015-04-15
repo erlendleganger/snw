@@ -353,6 +353,8 @@ for my $id(keys %{$xml_instrument->{instrument}}){
    my $name=$xml_instrument->{instrument}{$id}{name};
    my $tip=$xml_instrument->{instrument}{$id}{tip};
    my $ink=$xml_instrument->{instrument}{$id}{ink};
+   my $weightunit=$xml_instrument->{instrument}{$id}{weight}{total}{unit};
+   my $weighttotal=$xml_instrument->{instrument}{$id}{weight}{total}{content};
    my $fname="$docsrcdir/handwriting/$id.html.md.eco";
    my $reviewfname="$topicdir/instrument/$id.md";
    my $reviewtext=$xml_instrument->{instrument}{$id}{review}{text};
@@ -406,7 +408,7 @@ status: $reviewstatus
 * Manufacturer: [$manufacturer](/a/b/c/$manufacturerid.html)
 * Name: $name
 * Type: $pentype{$tip}{$ink}
-* Weight: $xml_instrument->{instrument}{$id}{weight}{total}g
+* Weight: $weighttotal$weightunit
 * Review date: $reviewdate
 
 $econoop

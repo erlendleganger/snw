@@ -7,7 +7,7 @@
       <tip>ball</tip>
       <ink>gel</ink>
       <weight>
-         <total>9.5</total>
+         <total unit="g">9.5</total>
       </weight>
       <procurement>
          <vendor id="staples-ski"/>
@@ -28,7 +28,7 @@
       <tip>ball</tip>
       <ink>water</ink>
       <weight>
-         <total>10.0</total>
+         <total unit="g">10.0</total>
       </weight>
       <procurement>
          <vendor id="staples-ski"/>
@@ -50,7 +50,7 @@
       <tip>ball</tip>
       <ink>water</ink>
       <weight>
-         <total>9.5</total>
+         <total unit="g">9.5</total>
       </weight>
       <procurement>
          <vendor id="staples-ski"/>
@@ -71,7 +71,7 @@
       <tip>nib</tip>
       <ink>m</ink>
       <weight>
-         <total>9.5</total>
+         <total unit="g">9.5</total>
       </weight>
       <procurement>
          <vendor id="norli-ski"/>
@@ -92,7 +92,7 @@
       <tip>fibre</tip>
       <ink>liquid</ink>
       <weight>
-         <total>tbd</total>
+         <total unit="g">tbd</total>
       </weight>
       <procurement>
          <vendor id="staples-ski"/>
@@ -114,7 +114,7 @@
       <tip>ball</tip>
       <ink>gel</ink>
       <weight>
-         <total>tbd</total>
+         <total unit="g">tbd</total>
       </weight>
       <procurement>
          <vendor id="staples-ski"/>
@@ -136,7 +136,7 @@
       <tip>ball</tip>
       <ink>oil</ink>
       <weight>
-         <total>tbd</total>
+         <total unit="g">tbd</total>
       </weight>
       <procurement>
          <vendor id="cultpens"/>
@@ -158,7 +158,7 @@
       <tip>ball</tip>
       <ink>gel</ink>
       <weight>
-         <total>tbd</total>
+         <total unit="g">tbd</total>
       </weight>
       <procurement>
          <vendor id="cultpens"/>
@@ -180,7 +180,7 @@
       <tip>ball</tip>
       <ink>gel</ink>
       <weight>
-         <total>tbd</total>
+         <total unit="g">tbd</total>
       </weight>
       <procurement>
          <vendor id="cultpens"/>
@@ -202,16 +202,15 @@
       <tip>ball</tip>
       <ink>oil</ink>
       <weight>
-         <total>tbd</total>
+         <total unit="g">tbdx</total>
       </weight>
       <procurement>
          <vendor id="bureaudirect"/>
-         <price>tbd</price>
-         <currency id="nok"/>
+         <price currency="nok">tbd</price>
          <date>tbd</date>
       </procurement>
       <review>
-         <status>ongoing</status>
+         <status>done</status>
          <date>2015-04-04</date>
       </review>
    </instrument>
@@ -223,7 +222,7 @@
       <tip>tbd</tip>
       <ink>tbd</ink>
       <weight>
-         <total>tbd</total>
+         <total unit="g">tbd</total>
       </weight>
       <procurement>
          <vendor id="tbd"/>
