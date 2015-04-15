@@ -1,6 +1,6 @@
 <a href="https://www.flickr.com/photos/131463957@N06/16397447843" title="2015-04-03_10-05-48 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7638/16397447843_02f58f641c.jpg" width="500" height="375" alt="2015-04-03_10-05-48"></a>
 
-This is my first encounter with the favous Field Notes; I bougth this three pack with graph, ruled and plain paper, including a Field Notes pen and a Field Notes rubber band. The notebooks are rather thin, seems durable. The paper is nice and smooth, and the lines for the graph and ruled paper are printed with a subtle line - visible, but not dominating.
+This is my first encounter with the famous Field Notes notebooks. I bought this three-pack with graph, ruled and plain paper, including a Field Notes pen and a Field Notes rubber band. The notebooks are rather thin, but they seem durable. The paper is nice and smooth, and the lines for the graph and ruled paper are printed with a subtle line - visible, but not dominating.
 
 I'm not sure which pen I should use with it, I need to experiment a bit here.
 
