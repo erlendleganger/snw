@@ -1,0 +1,21 @@
+---
+#note: generated file, all local modifications will be lost
+layout: post
+type: handwriting
+category: loadout
+title: Loadout 2015-04-21
+date: 2015-04-21
+---
+
+* Pens:
+ * <%- @getPostLink('blackwing-pearl') %> 
+ * <%- @getPostLink('pilot-juice-07') %> (purple)
+ * <%- @getPostLink('pilot-juice-05') %> (blue)
+ * <%- @getPostLink('pilot-hi-tec-c') %> (blue)
+ * <%- @getPostLink('pilot-juice-038') %> (dark red)  
+* Paper:
+ * <%- @getPostLink('rhodia-side-stapled-a7') %> (orange)
+ * <%- @getPostLink('esselte-protokoll-a4') %> (not in the picture)
+
+<a href="https://www.flickr.com/photos/131463957@N06/17038526918" title="2015-04-21_08-56-51 by Silent Norwegian, on Flickr"><img src="https://farm6.staticflickr.com/5456/17038526918_e301b11fd9.jpg" width="500" height="375" alt="2015-04-21_08-56-51"></a>
+

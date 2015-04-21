@@ -216,6 +216,144 @@
    </instrument>
 
    <!-- ============================================================= -->
+   <instrument id="pilot-juice-038">
+      <manufacturer id="pilot"/>
+      <name>Pilot Juice .38</name>
+      <tip>ball</tip>
+      <ink>gel</ink>
+      <weight>
+         <total unit="g">tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="tbd"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>tbd</date>
+      </procurement>
+      <review>
+         <date>2015-01-01</date>
+         <!-- queued, ongoing, done -->
+         <status>queued</status>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
+   <instrument id="pilot-juice-05">
+      <manufacturer id="pilot"/>
+      <name>Pilot Juice .5</name>
+      <tip>ball</tip>
+      <ink>gel</ink>
+      <weight>
+         <total unit="g">tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="tbd"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>tbd</date>
+      </procurement>
+      <review>
+         <date>2015-01-01</date>
+         <!-- queued, ongoing, done -->
+         <status>queued</status>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
+   <instrument id="pilot-juice-07">
+      <manufacturer id="pilot"/>
+      <name>Pilot Juice .7</name>
+      <tip>ball</tip>
+      <ink>gel</ink>
+      <weight>
+         <total unit="g">tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="tbd"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>tbd</date>
+      </procurement>
+      <review>
+         <date>2015-01-01</date>
+         <!-- queued, ongoing, done -->
+         <status>queued</status>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
+   <instrument id="pilot-petit">
+      <manufacturer id="pilot"/>
+      <name>Pilot Petit</name>
+      <tip>nib</tip>
+      <ink>m</ink>
+      <weight>
+         <total unit="g">tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="tbd"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>tbd</date>
+      </procurement>
+      <review>
+         <date>2015-01-01</date>
+         <!-- queued, ongoing, done -->
+         <status>queued</status>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
+   <instrument id="pilot-hi-tec-c">
+      <manufacturer id="pilot"/>
+      <name>Pilot Hi-Tec-C</name>
+      <tip>nib</tip>
+      <ink>m</ink>
+      <weight>
+         <total unit="g">tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="tbd"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>tbd</date>
+      </procurement>
+      <review>
+         <date>2015-01-01</date>
+         <!-- queued, ongoing, done -->
+         <status>queued</status>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
+   <instrument id="blackwing-pearl">
+      <manufacturer id="pilot"/>
+      <name>Palomino Blackwing Pearl</name>
+      <tip>pencil</tip>
+      <ink>hb</ink>
+      <weight>
+         <total unit="g">tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="tbd"/>
+         <price>tbd</price>
+         <currency id="nok"/>
+         <date>tbd</date>
+      </procurement>
+      <review>
+         <date>2015-01-01</date>
+         <!-- queued, ongoing, done -->
+         <status>queued</status>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
    <?instrument id="tbd">
       <manufacturer id="tbd"/>
       <name>Pilot tbd</name>

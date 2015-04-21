@@ -35,6 +35,8 @@ $pentype{ball}{oil}="Ballpoint";
 $pentype{ball}{water}="Rollerball";
 $pentype{fibre}{liquid}="Fibre";
 $pentype{nib}{m}="Fountain pen";
+$pentype{nib}{f}="Fountain pen";
+$pentype{pencil}{hb}="Pencil";
 
 #-----------------------------------------------------------------------
 #set up logging
