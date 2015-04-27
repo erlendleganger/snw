@@ -287,7 +287,7 @@
    <!-- ============================================================= -->
    <instrument id="pilot-petit">
       <manufacturer id="pilot"/>
-      <name>Pilot Petit</name>
+      <name>Pilot Petit1</name>
       <tip>nib</tip>
       <ink>m</ink>
       <weight>
@@ -300,9 +300,9 @@
          <date>tbd</date>
       </procurement>
       <review>
-         <date>2015-01-01</date>
+         <date>2015-04-27</date>
          <!-- queued, ongoing, done -->
-         <status>queued</status>
+         <status>ongoing</status>
          <text/>
       </review>
    </instrument>

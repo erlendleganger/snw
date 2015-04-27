@@ -3,44 +3,45 @@
 layout: post
 type: handwriting
 category: penreview
-title: Review of Pilot Petit
-titleshort: Pilot Petit
-date: 2015-01-01
+title: Review of Pilot Petit1
+titleshort: Pilot Petit1
+date: 2015-04-27
 docid: pilot-petit
-status: queued
+status: ongoing
 ---
 * Manufacturer: [Pilot](/a/b/c/pilot.html)
-* Name: Pilot Petit
+* Name: Pilot Petit1
 * Type: Fountain pen
 * Weight: tbdg
-* Review date: 2015-01-01
+* Review date: 2015-04-27
 
 <!-- noop eco to avoid warning about eco rendering not producing output: -->
 <% noop=1 %>
-This review is currently queued, no contents has been added yet.
+<a href="https://www.flickr.com/photos/131463957@N06/16655883423" title="2015-04-26_03-16-26 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8739/16655883423_2587eebd09_z.jpg" width="640" height="152" alt="2015-04-26_03-16-26"></a>
 
-Topics to add:
-* Picture of the whole pen
-* General comment
-* The grip area
-* The line
-* The mechanism
-* Use for work
-* Conclusion
+This is a tiny fountain pen, the first I have taken into daily use in many, many ears. It has a fine nib and some blue ink that came with the pen. It feels a bit scratchy to write with and the line is a bit too wide. I will use this with my <%- @getPostLink('rhodia-side-stapled-a7') %> notebook for a while; at least the size goes will with this notebook.
 
 ---
 Writing sample, on the <%- @getPostLink('rhodia-dotpad-a4') %>.
 
-TBD: Add picture here
+<a href="https://www.flickr.com/photos/131463957@N06/17274340692" title="2015-04-26_03-19-00 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8767/17274340692_8f17e5631d_z.jpg" width="640" height="624" alt="2015-04-26_03-19-00"></a>
+
+<a href="https://www.flickr.com/photos/131463957@N06/17276139795" title="2015-04-26_03-20-07 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8798/17276139795_1c9c836119_z.jpg" width="640" height="480" alt="2015-04-26_03-20-07"></a>
 
 ---
 Closeup of the pen.
 
-TBD: Add picture here
+<a href="https://www.flickr.com/photos/131463957@N06/17276118205" title="2015-04-26_03-17-03 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8786/17276118205_80a85acced_z.jpg" width="640" height="480" alt="2015-04-26_03-17-03"></a>
 
 ---
-Closeup of the tip area.
+Closeups of the nib.
 
-TBD: Add picture here
+<a href="https://www.flickr.com/photos/131463957@N06/17274335132" title="2015-04-26_03-17-52 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7727/17274335132_f13cbf1f2b_z.jpg" width="508" height="640" alt="2015-04-26_03-17-52"></a>
 
+<a href="https://www.flickr.com/photos/131463957@N06/16653689684" title="2015-04-26_03-18-29 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7673/16653689684_8d2f061dc0_z.jpg" width="640" height="480" alt="2015-04-26_03-18-29"></a>
+
+---
+Comparison with the lines of the <%- @getPostLink('pilot-hi-tec-c') %>.
+
+<a href="https://www.flickr.com/photos/131463957@N06/17276131985" title="2015-04-26_03-19-34 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7718/17276131985_46010e4145_z.jpg" width="640" height="480" alt="2015-04-26_03-19-34"></a>
 
