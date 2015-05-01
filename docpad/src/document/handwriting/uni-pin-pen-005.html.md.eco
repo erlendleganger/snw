@@ -1,0 +1,46 @@
+---
+#note: generated file, all local modifications will be lost
+layout: post
+type: handwriting
+category: penreview
+title: Review of Uni Pin Pen 005
+titleshort: Uni Pin Pen 005
+date: 2015-01-01
+docid: uni-pin-pen-005
+status: queued
+---
+* Manufacturer: [Uni](/a/b/c/uni.html)
+* Name: Uni Pin Pen 005
+* Type: Fibre
+* Weight: tbdg
+* Review date: 2015-01-01
+
+<!-- noop eco to avoid warning about eco rendering not producing output: -->
+<% noop=1 %>
+This review is currently queued, no contents has been added yet.
+
+Topics to add:
+* Picture of the whole pen
+* General comment
+* The grip area
+* The line
+* The mechanism
+* Use for work
+* Conclusion
+
+---
+Writing sample, on the <%- @getPostLink('rhodia-dotpad-a4') %>.
+
+TBD: Add picture here
+
+---
+Closeup of the pen.
+
+TBD: Add picture here
+
+---
+Closeup of the tip area.
+
+TBD: Add picture here
+
+

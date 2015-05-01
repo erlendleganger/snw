@@ -1,0 +1,46 @@
+---
+#note: generated file, all local modifications will be lost
+layout: post
+type: handwriting
+category: penreview
+title: Review of Lyra ArtDesign 669 B
+titleshort: Lyra ArtDesign 669 B
+date: 2015-01-01
+docid: lyra-artdesign-669-b
+status: queued
+---
+* Manufacturer: [Lyra](/a/b/c/lyra.html)
+* Name: Lyra ArtDesign 669 B
+* Type: Pencil
+* Weight: tbdg
+* Review date: 2015-01-01
+
+<!-- noop eco to avoid warning about eco rendering not producing output: -->
+<% noop=1 %>
+This review is currently queued, no contents has been added yet.
+
+Topics to add:
+* Picture of the whole pen
+* General comment
+* The grip area
+* The line
+* The mechanism
+* Use for work
+* Conclusion
+
+---
+Writing sample, on the <%- @getPostLink('rhodia-dotpad-a4') %>.
+
+TBD: Add picture here
+
+---
+Closeup of the pen.
+
+TBD: Add picture here
+
+---
+Closeup of the tip area.
+
+TBD: Add picture here
+
+
