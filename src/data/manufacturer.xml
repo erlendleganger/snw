@@ -29,4 +29,16 @@
    <manufacturer id="bic">
       <name>Bic</name>
    </manufacturer>
+   <manufacturer id="staedtler">
+      <name>Staedtler</name>
+   </manufacturer>
+   <manufacturer id="lyra">
+      <name>Lyra</name>
+   </manufacturer>
+   <manufacturer id="uni">
+      <name>Uni</name>
+   </manufacturer>
+   <manufacturer id="marco">
+      <name>Marco</name>
+   </manufacturer>
 </manufacturers>

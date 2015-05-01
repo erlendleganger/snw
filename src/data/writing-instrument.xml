@@ -331,11 +331,11 @@
    </instrument>
 
    <!-- ============================================================= -->
-   <instrument id="blackwing-pearl">
+   <instrument id="palomino-blackwing-pearl">
       <manufacturer id="pilot"/>
       <name>Palomino Blackwing Pearl</name>
-      <tip>pencil</tip>
-      <ink>hb</ink>
+      <tip>graphite</tip>
+      <ink>black</ink>
       <weight>
          <total unit="g">tbd</total>
       </weight>
@@ -354,9 +354,124 @@
    </instrument>
 
    <!-- ============================================================= -->
+   <instrument id="marco-superb-writer-4200-hb">
+      <manufacturer id="marco"/>
+      <name>Marco Superb Writer 4200 HB 2</name>
+      <tip>graphite</tip>
+      <ink>black</ink>
+      <weight>
+         <total unit="g">tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="tanum-kjh"/>
+         <price>NOK 29,- for 12</price>
+         <currency id="nok"/>
+         <date>2015-04-29</date>
+      </procurement>
+      <review>
+         <date>2015-01-01</date>
+         <!-- queued, ongoing, done -->
+         <status>queued</status>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
+   <instrument id="lyra-artdesign-669-b">
+      <manufacturer id="lyra"/>
+      <name>Lyra ArtDesign 669 B</name>
+      <tip>graphite</tip>
+      <ink>black</ink>
+      <weight>
+         <total unit="g">tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="tanum-kjh"/>
+         <price>NOK 19</price>
+         <currency id="nok"/>
+         <date>2015-04-29</date>
+      </procurement>
+      <review>
+         <date>2015-01-01</date>
+         <!-- queued, ongoing, done -->
+         <status>queued</status>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
+   <instrument id="staedtler-minerva-hb">
+      <manufacturer id="staedtler"/>
+      <name>Staedtler minerva HB 2</name>
+      <tip>graphite</tip>
+      <ink>black</ink>
+      <weight>
+         <total unit="g">tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="tanum-kjh"/>
+         <price>NOK 10</price>
+         <currency id="nok"/>
+         <date>2015-04-29</date>
+      </procurement>
+      <review>
+         <date>2015-01-01</date>
+         <!-- queued, ongoing, done -->
+         <status>queued</status>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
+   <instrument id="pilot-drawing-pen-005">
+      <manufacturer id="pilot"/>
+      <name>Pilot Drawing Pen 005</name>
+      <tip>fibre</tip>
+      <ink>liquid</ink>
+      <weight>
+         <total unit="g">tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="tanum-kjh"/>
+         <price>NOK 45</price>
+         <currency id="nok"/>
+         <date>2015-04-29</date>
+      </procurement>
+      <review>
+         <date>2015-01-01</date>
+         <!-- queued, ongoing, done -->
+         <status>queued</status>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
+   <instrument id="uni-pin-pen-005">
+      <manufacturer id="uni"/>
+      <name>Uni Pin Pen 005</name>
+      <tip>fibre</tip>
+      <ink>pigment</ink>
+      <weight>
+         <total unit="g">tbd</total>
+      </weight>
+      <procurement>
+         <vendor id="tanum-kjh"/>
+         <price>NOK 39</price>
+         <currency id="nok"/>
+         <date>2015-04-29</date>
+      </procurement>
+      <review>
+         <date>2015-01-01</date>
+         <!-- queued, ongoing, done -->
+         <status>queued</status>
+         <text/>
+      </review>
+   </instrument>
+
+   <!-- ============================================================= -->
    <?instrument id="tbd">
       <manufacturer id="tbd"/>
-      <name>Pilot tbd</name>
+      <name>tbd</name>
       <tip>tbd</tip>
       <ink>tbd</ink>
       <weight>

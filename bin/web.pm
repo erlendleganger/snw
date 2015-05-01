@@ -34,9 +34,10 @@ $pentype{ball}{gel}="Rollerball gel";
 $pentype{ball}{oil}="Ballpoint";
 $pentype{ball}{water}="Rollerball";
 $pentype{fibre}{liquid}="Fibre";
+$pentype{fibre}{pigment}="Fibre"; #felt, for the uni pin pen
 $pentype{nib}{m}="Fountain pen";
 $pentype{nib}{f}="Fountain pen";
-$pentype{pencil}{hb}="Pencil";
+$pentype{graphite}{black}="Pencil";
 
 #-----------------------------------------------------------------------
 #set up logging
