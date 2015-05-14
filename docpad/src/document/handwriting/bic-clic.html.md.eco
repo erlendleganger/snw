@@ -9,12 +9,12 @@ date: 2015-04-04
 docid: bic-clic
 status: done
 ---
-* Manufacturer: [Bic](/a/b/c/bic.html)
+* Manufacturer: Bic
 * Name: Bic Clic
 * Type: Ballpoint
 * Weight: tbdxg
 * Length: tbd
-* Acquired: From tbd, for HASH(0x85d68a8) on tbd 
+* Acquired: From tbd, for HASH(0x85d6d00) on tbd 
 * Review date: 2015-04-04
 
 <!-- noop eco to avoid warning about eco rendering not producing output: -->
