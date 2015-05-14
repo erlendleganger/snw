@@ -9,7 +9,6 @@
       <procurement>
          <vendor id="bureau-direct"/>
          <price>tbd</price>
-         <currency id="nok"/>
          <date>2015-01-24</date>
       </procurement>
       <review>
@@ -27,7 +26,6 @@
       <procurement>
          <vendor id="cultpens"/>
          <price>tbd</price>
-         <currency id="nok"/>
          <date>2015-01-24</date>
       </procurement>
       <review>
@@ -45,7 +43,6 @@
       <procurement>
          <vendor id="cultpens"/>
          <price>tbd</price>
-         <currency id="nok"/>
          <date>2015-01-24</date>
       </procurement>
       <review>
@@ -61,10 +58,9 @@
       <paper>80 g/m2</paper>
       <ruling>5x5mm grid</ruling>
       <procurement>
-         <vendor id="cultpens"/>
-         <price>tbd</price>
-         <currency id="nok"/>
-         <date>2015-01-01</date>
+         <vendor id="work"/>
+         <price>an unknown price</price>
+         <date>2015-01-04</date>
       </procurement>
       <review>
          <date>2015-03-20</date>
@@ -81,7 +77,6 @@
       <procurement>
          <vendor id="cultpens"/>
          <price>tbd</price>
-         <currency id="nok"/>
          <date>2015-01-01</date>
       </procurement>
       <review>

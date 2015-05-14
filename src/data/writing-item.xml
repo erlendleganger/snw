@@ -4,10 +4,9 @@
       <manufacturer id="cocraft"/>
       <name>Cocraft 30cm steel ruler</name>
       <procurement>
-         <vendor id="cultpens"/>
-         <price>tbd</price>
-         <currency id="nok"/>
-         <date>2015-01-01</date>
+         <vendor id="co-ski"/>
+         <price>NOK49</price>
+         <date>2015-01-24</date>
       </procurement>
       <review>
          <date>2015-03-22</date>
@@ -19,9 +18,8 @@
       <name>Cult Pens Recycled Tyre Pencil Case</name>
       <procurement>
          <vendor id="cultpens"/>
-         <price>tbd</price>
-         <currency id="nok"/>
-         <date>2015-01-01</date>
+         <price>GBP3.67</price>
+         <date>2015-02-09</date>
       </procurement>
       <review>
          <date>2015-03-22</date>

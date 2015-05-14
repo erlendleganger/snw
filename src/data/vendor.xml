@@ -20,4 +20,7 @@
    <vendor id="co-ski">
       <name>Clas Ohlson Ski</name>
    </vendor>
+   <vendor id="work">
+      <name>work</name>
+   </vendor>
 </vendors>

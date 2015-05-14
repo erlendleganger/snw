@@ -161,6 +161,8 @@ for my $id(keys %{$xml_item->{item}}){
    my $fname="$docsrcdir/handwriting/$id.html.md.eco";
    my $reviewfname="$topicdir/item/$id.md";
    my $reviewdate=$xml_item->{item}{$id}{review}{date};
+   my $price=$xml_item->{item}{$id}{procurement}{price}||"tbd";
+   my $pricedate=$xml_item->{item}{$id}{procurement}{date}||"tbd";
    $logger->trace("$manufacturerid|$vendorid|$name|$reviewdate");
 
    #--------------------------------------------------------------------
@@ -191,8 +193,9 @@ titleshort: $name
 docid: $id
 date: $reviewdate
 ---
-* Manufacturer: [$manufacturer](/a/b/c/$manufacturerid.html)
+* Manufacturer: $manufacturer
 * Name: $name
+* Acquired: From $vendor, for $price on $pricedate 
 * Date: $reviewdate
 
 $econoop
@@ -261,6 +264,8 @@ for my $id(keys %{$xml_medium->{medium}}){
    my $paper=$xml_medium->{medium}{$id}{paper};
    my $ruling=$xml_medium->{medium}{$id}{ruling};
    my $size=$xml_medium->{medium}{$id}{size};
+   my $price=$xml_medium->{medium}{$id}{procurement}{price}||"tbd";
+   my $pricedate=$xml_medium->{medium}{$id}{procurement}{date}||"tbd";
    $logger->trace("$manufacturerid|$vendorid|$name|$reviewdate");
 
    #--------------------------------------------------------------------
@@ -290,12 +295,13 @@ titleshort: $name
 docid: $id
 date: $reviewdate
 ---
-* Manufacturer: [$manufacturer](/a/b/c/$manufacturerid.html)
+* Manufacturer: $manufacturer
 * Name: $name
 * Paper: $paper
 * Size: $size
 * Ruling: $ruling
 * Page count: $pagecount
+* Acquired: From $vendor, for $price on $pricedate 
 * Review date: $reviewdate
 
 $econoop
@@ -412,7 +418,7 @@ date: $reviewdate
 docid: $id
 status: $reviewstatus
 ---
-* Manufacturer: [$manufacturer](/a/b/c/$manufacturerid.html)
+* Manufacturer: $manufacturer
 * Name: $name
 * Type: $pentype{$tip}{$ink}
 * Weight: $weighttotal$weightunit
