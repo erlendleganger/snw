@@ -164,12 +164,12 @@
          <total unit="mm">146mm in with tip out</total>
       </length>
       <procurement>
-         <vendor id="tbd"/>
-         <price>tbd</price>
-         <date>tbd</date>
+         <vendor id="co-ski"/>
+         <price>NOK29</price>
+         <date>2015-01-24</date>
       </procurement>
       <review>
-         <status>ongoing</status>
+         <status>done</status>
          <date>2015-04-02</date>
          <text/>
       </review>
