@@ -352,12 +352,16 @@ for my $id(keys %{$xml_instrument->{instrument}}){
    my $manufacturerid=$xml_instrument->{instrument}{$id}{manufacturer}{id};
    my $manufacturer=$xml_manufacturer->{manufacturer}{$manufacturerid}{name};
    my $vendorid=$xml_instrument->{instrument}{$id}{procurement}{vendor}{id};
-   my $vendor=$xml_vendor->{vendor}{$vendorid}{name};
+   my $price=$xml_instrument->{instrument}{$id}{procurement}{price}||"tbd";
+   my $pricedate=$xml_instrument->{instrument}{$id}{procurement}{date}||"tbd";
+   my $vendor=$xml_vendor->{vendor}{$vendorid}{name}||"tbd";
    my $name=$xml_instrument->{instrument}{$id}{name};
    my $tip=$xml_instrument->{instrument}{$id}{tip};
    my $ink=$xml_instrument->{instrument}{$id}{ink};
-   my $weightunit=$xml_instrument->{instrument}{$id}{weight}{total}{unit};
-   my $weighttotal=$xml_instrument->{instrument}{$id}{weight}{total}{content};
+   my $weightunit=$xml_instrument->{instrument}{$id}{weight}{total}{unit}||"g";
+   my $weighttotal=$xml_instrument->{instrument}{$id}{weight}{total}{content}||"tbd";
+   my $lengthunit=$xml_instrument->{instrument}{$id}{length}{total}{unit}||"mm";
+   my $lengthtotal=$xml_instrument->{instrument}{$id}{length}{total}{content}||"tbd";
    my $fname="$docsrcdir/handwriting/$id.html.md.eco";
    my $reviewfname="$topicdir/instrument/$id.md";
    my $reviewtext=$xml_instrument->{instrument}{$id}{review}{text};
@@ -412,6 +416,8 @@ status: $reviewstatus
 * Name: $name
 * Type: $pentype{$tip}{$ink}
 * Weight: $weighttotal$weightunit
+* Length: $lengthtotal
+* Acquired: From $vendor, for $price on $pricedate 
 * Review date: $reviewdate
 
 $econoop
