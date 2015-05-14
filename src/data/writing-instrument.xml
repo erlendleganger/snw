@@ -158,12 +158,14 @@
       <tip>ball</tip>
       <ink>gel</ink>
       <weight>
-         <total unit="g">tbd</total>
+         <total unit="g">10.5g</total>
       </weight>
+      <length>
+         <total unit="mm">146mm in with tip out</total>
+      </length>
       <procurement>
-         <vendor id="cultpens"/>
+         <vendor id="tbd"/>
          <price>tbd</price>
-         <currency id="nok"/>
          <date>tbd</date>
       </procurement>
       <review>
@@ -180,16 +182,18 @@
       <tip>ball</tip>
       <ink>gel</ink>
       <weight>
-         <total unit="g">tbd</total>
+         <total unit="g">11</total>
       </weight>
+      <length>
+         <total unit="mm">141mm in with tip out</total>
+      </length>
       <procurement>
          <vendor id="cultpens"/>
-         <price>tbd</price>
-         <currency id="nok"/>
-         <date>tbd</date>
+         <price>GBP1.41</price>
+         <date>2015-02-09</date>
       </procurement>
       <review>
-         <status>ongoing</status>
+         <status>done</status>
          <date>2015-04-04</date>
          <text/>
       </review>
@@ -291,18 +295,20 @@
       <tip>nib</tip>
       <ink>m</ink>
       <weight>
-         <total unit="g">tbd</total>
+         <total unit="g">10.5</total>
       </weight>
+      <length>
+         <total unit="mm">108mm capped, 95mm uncapped, 132mm posted</total>
+      </length>
       <procurement>
-         <vendor id="tbd"/>
-         <price>tbd</price>
-         <currency id="nok"/>
-         <date>tbd</date>
+         <vendor id="cultpens"/>
+         <price>GBP2.78</price>
+         <date>2015-02-09</date>
       </procurement>
       <review>
          <date>2015-04-27</date>
          <!-- queued, ongoing, done -->
-         <status>ongoing</status>
+         <status>done</status>
          <text/>
       </review>
    </instrument>
@@ -477,6 +483,9 @@
       <weight>
          <total unit="g">tbd</total>
       </weight>
+      <length>
+         <total unit="mm">tbd</total>
+      </length>
       <procurement>
          <vendor id="tbd"/>
          <price>tbd</price>

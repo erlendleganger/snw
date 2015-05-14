@@ -1,6 +1,13 @@
 <a href="https://www.flickr.com/photos/131463957@N06/16655883423" title="2015-04-26_03-16-26 by Silent Norwegian, on Flickr"><img src="https://farm9.staticflickr.com/8739/16655883423_2587eebd09_z.jpg" width="640" height="152" alt="2015-04-26_03-16-26"></a>
 
-This is a tiny fountain pen, the first I have taken into daily use in many, many ears. It has a fine nib and some blue ink that came with the pen. It feels a bit scratchy to write with and the line is a bit too wide. I will use this with my <%- @getPostLink('rhodia-side-stapled-a7') %> notebook for a while; at least the size goes will with this notebook.
+This is a tiny fountain pen, the first I have taken into daily use in many, many ears. It has a fine nib and some blue ink that came with the pen. It feels a bit scratchy to write with and the line is a bit too wide. I uset the pen with my <%- @getPostLink('rhodia-side-stapled-a7') %> for a while; the size goes well with this notebook. It works fine as note taking pen, but there is a bit of bleed through the paper in this notebook.
+
+All in all a nice small pen, perfect to keep in your pocket clipped to the Rhodia notebook.
+
+---
+The pen and the <%- @getPostLink('rhodia-side-stapled-a7') %>.
+
+<a href="https://www.flickr.com/photos/131463957@N06/17441093960" title="2015-05-14_08-52-36 by Silent Norwegian, on Flickr"><img src="https://c4.staticflickr.com/8/7788/17441093960_2d1f36dbb3_z.jpg" width="640" height="480" alt="2015-05-14_08-52-36"></a>
 
 ---
 Writing sample, on the <%- @getPostLink('rhodia-dotpad-a4') %>.
