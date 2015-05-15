@@ -240,18 +240,20 @@
       <tip>ball</tip>
       <ink>gel</ink>
       <weight>
-         <total unit="g">tbd</total>
+         <total unit="g">8.5</total>
       </weight>
+      <length>
+         <total unit="mm">140mm in with tip out</total>
+      </length>
       <procurement>
-         <vendor id="tbd"/>
-         <price>tbd</price>
-         <currency id="nok"/>
-         <date>tbd</date>
+         <vendor id="cultpens"/>
+         <price>GBP1.44</price>
+         <date>2015-02-09</date>
       </procurement>
       <review>
-         <date>2015-01-01</date>
+         <date>2015-05-15</date>
          <!-- queued, ongoing, done -->
-         <status>queued</status>
+         <status>done</status>
          <text/>
       </review>
    </instrument>
@@ -263,18 +265,20 @@
       <tip>ball</tip>
       <ink>gel</ink>
       <weight>
-         <total unit="g">tbd</total>
+         <total unit="g">8.5</total>
       </weight>
+      <length>
+         <total unit="mm">140mm in with tip out</total>
+      </length>
       <procurement>
-         <vendor id="tbd"/>
-         <price>tbd</price>
-         <currency id="nok"/>
-         <date>tbd</date>
+         <vendor id="cultpens"/>
+         <price>GBP1.44</price>
+         <date>2015-02-09</date>
       </procurement>
       <review>
-         <date>2015-01-01</date>
+         <date>2015-05-15</date>
          <!-- queued, ongoing, done -->
-         <status>queued</status>
+         <status>done</status>
          <text/>
       </review>
    </instrument>
@@ -286,18 +290,20 @@
       <tip>ball</tip>
       <ink>gel</ink>
       <weight>
-         <total unit="g">tbd</total>
+         <total unit="g">8.5</total>
       </weight>
+      <length>
+         <total unit="mm">140mm in with tip out</total>
+      </length>
       <procurement>
-         <vendor id="tbd"/>
-         <price>tbd</price>
-         <currency id="nok"/>
-         <date>tbd</date>
+         <vendor id="cultpens"/>
+         <price>GBP1.44</price>
+         <date>2015-02-09</date>
       </procurement>
       <review>
-         <date>2015-01-01</date>
+         <date>2015-05-15</date>
          <!-- queued, ongoing, done -->
-         <status>queued</status>
+         <status>done</status>
          <text/>
       </review>
    </instrument>

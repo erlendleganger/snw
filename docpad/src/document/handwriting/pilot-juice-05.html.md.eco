@@ -5,44 +5,33 @@ type: handwriting
 category: penreview
 title: Review of Pilot Juice .5
 titleshort: Pilot Juice .5
-date: 2015-01-01
+date: 2015-05-15
 docid: pilot-juice-05
-status: queued
+status: done
 ---
 * Manufacturer: Pilot
 * Name: Pilot Juice .5
 * Type: Rollerball gel
-* Weight: tbdg
-* Length: tbd
-* Acquired: From tbd, for tbd on tbd 
-* Review date: 2015-01-01
+* Weight: 8.5g
+* Length: 140mm in with tip out
+* Acquired: From Cult Pens, for GBP1.44 on 2015-02-09 
+* Review date: 2015-05-15
 
 <!-- noop eco to avoid warning about eco rendering not producing output: -->
 <% noop=1 %>
-This review is currently queued, no contents has been added yet.
+<a href="https://www.flickr.com/photos/131463957@N06/17277674595" title="2015-04-26_05-43-19 by Silent Norwegian, on Flickr"><img src="https://c2.staticflickr.com/8/7724/17277674595_8c747a2bf0_z.jpg" width="640" height="133" alt="2015-04-26_05-43-19"></a>
 
-Topics to add:
-* Picture of the whole pen
-* General comment
-* The grip area
-* The line
-* The mechanism
-* Use for work
-* Conclusion
+This is the 0.5mm version of the Pilot Juice, the general comments for this one are the same as for its 0.7mm sibling, the <%- @getPostLink('pilot-juice-07') %>.
+
+I cannot really tell the difference in feel and apperance of the line between this pen and the <%- @getPostLink('pilot-juice-07') %>; they feel very much the same - a nice, light pen which flows nicely wihthout smudging.
 
 ---
 Writing sample, on the <%- @getPostLink('rhodia-dotpad-a4') %>.
 
-TBD: Add picture here
+<a href="https://www.flickr.com/photos/131463957@N06/17089921788" title="2015-04-26_05-44-36 by Silent Norwegian, on Flickr"><img src="https://c1.staticflickr.com/9/8790/17089921788_efbb36e7a6_z.jpg" width="640" height="480" alt="2015-04-26_05-44-36"></a>
 
 ---
-Closeup of the pen.
+Comparison of three different Pilot Juice pens, in different colours and line widths. The pen reviewed here is the one to the left, the others are <%- @getPostLink('pilot-juice-07') %> and <%- @getPostLink('pilot-juice-038') %>.
 
-TBD: Add picture here
-
----
-Closeup of the tip area.
-
-TBD: Add picture here
-
+<a href="https://www.flickr.com/photos/131463957@N06/17275903382" title="2015-04-26_05-45-31 by Silent Norwegian, on Flickr"><img src="https://c2.staticflickr.com/8/7709/17275903382_d91a1b0b08_z.jpg" width="640" height="437" alt="2015-04-26_05-45-31"></a>
 
