@@ -9,15 +9,17 @@
       <weight>
          <total unit="g">9.5</total>
       </weight>
+      <length>
+         <total unit="mm">145mm capped, 136mm uncapped, 155mm posted</total>
+      </length>
       <procurement>
          <vendor id="staples-ski"/>
-         <price>TBD</price>
-         <currency id="nok"/>
+         <price>NOK20</price>
          <date>2015-01-29</date>
       </procurement>
       <review>
          <date>2015-02-27</date>
-         <status>queued</status>
+         <status>done</status>
       </review>
    </instrument>
 
@@ -30,15 +32,17 @@
       <weight>
          <total unit="g">10.0</total>
       </weight>
+      <length>
+         <total unit="mm">134mm capped, 128mm uncapped, 151mm posted</total>
+      </length>
       <procurement>
          <vendor id="staples-ski"/>
-         <price>TBD</price>
-         <currency id="nok"/>
+         <price>NOK29</price>
          <date>2015-01-29</date>
       </procurement>
       <review>
          <date>2015-02-27</date>
-         <status>ongoing</status>
+         <status>done</status>
          <text/>
       </review>
    </instrument>
@@ -52,15 +56,17 @@
       <weight>
          <total unit="g">9.5</total>
       </weight>
+      <length>
+         <total unit="mm">133mm capped, 123mm uncapped, 150mm posted</total>
+      </length>
       <procurement>
          <vendor id="staples-ski"/>
-         <price>tbd</price>
-         <currency id="nok"/>
-         <date>tbd</date>
+         <price>NOK29</price>
+         <date>2015-01-29</date>
       </procurement>
       <review>
          <date>2015-02-28</date>
-         <status>ongoing</status>
+         <status>done</status>
       </review>
    </instrument>
 
@@ -73,15 +79,17 @@
       <weight>
          <total unit="g">9.5</total>
       </weight>
+      <length>
+         <total unit="mm">132mm capped, 121mm uncapped, 152mm posted</total>
+      </length>
       <procurement>
          <vendor id="norli-ski"/>
-         <price>55</price>
-         <currency id="nok"/>
+         <price>NOK55</price>
          <date>2015-01-24</date>
       </procurement>
       <review>
          <date>2015-03-05</date>
-         <status>ongoing</status>
+         <status>done</status>
       </review>
    </instrument>
 
@@ -92,16 +100,18 @@
       <tip>fibre</tip>
       <ink>liquid</ink>
       <weight>
-         <total unit="g">tbd</total>
+         <total unit="g">9</total>
       </weight>
+      <length>
+         <total unit="mm">130mm capped, 110mm uncapped, 148mm posted</total>
+      </length>
       <procurement>
          <vendor id="staples-ski"/>
-         <price>tbd</price>
-         <currency id="nok"/>
-         <date>tbd</date>
+         <price>unknown price</price>
+         <date>2015-01-29</date>
       </procurement>
       <review>
-         <status>ongoing</status>
+         <status>done</status>
          <date>2015-03-15</date>
          <text/>
       </review>
@@ -114,16 +124,18 @@
       <tip>ball</tip>
       <ink>gel</ink>
       <weight>
-         <total unit="g">tbd</total>
+         <total unit="g">12.5</total>
       </weight>
+      <length>
+         <total unit="mm">145mm in with tip out</total>
+      </length>
       <procurement>
-         <vendor id="staples-ski"/>
-         <price>tbd</price>
-         <currency id="nok"/>
-         <date>tbd</date>
+         <vendor id="co-ski"/>
+         <price>NOK29</price>
+         <date>2015-01-24</date>
       </procurement>
       <review>
-         <status>ongoing</status>
+         <status>done</status>
          <date>2015-03-18</date>
          <text/>
       </review>
@@ -136,16 +148,18 @@
       <tip>ball</tip>
       <ink>oil</ink>
       <weight>
-         <total unit="g">tbd</total>
+         <total unit="g">12.5</total>
       </weight>
+      <length>
+         <total unit="mm">128mm in with tip out</total>
+      </length>
       <procurement>
          <vendor id="cultpens"/>
-         <price>tbd</price>
-         <currency id="nok"/>
-         <date>tbd</date>
+         <price>GBP2.45</price>
+         <date>2015-02-09</date>
       </procurement>
       <review>
-         <status>ongoing</status>
+         <status>done</status>
          <date>2015-03-18</date>
          <text/>
       </review>
