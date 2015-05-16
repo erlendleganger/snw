@@ -29,6 +29,6 @@ Closeups of the nib.
 <a href="https://www.flickr.com/photos/131463957@N06/16653689684" title="2015-04-26_03-18-29 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7673/16653689684_8d2f061dc0_z.jpg" width="640" height="480" alt="2015-04-26_03-18-29"></a>
 
 ---
-Comparison with the lines of the <%- @getPostLink('pilot-hi-tec-c') %>.
+Comparison with the lines of the <%- @getPostLink('pilot-hi-tec-c3') %>.
 
 <a href="https://www.flickr.com/photos/131463957@N06/17276131985" title="2015-04-26_03-19-34 by Silent Norwegian, on Flickr"><img src="https://farm8.staticflickr.com/7718/17276131985_46010e4145_z.jpg" width="640" height="480" alt="2015-04-26_03-19-34"></a>
