@@ -1,5 +1,7 @@
 This review is currently queued, no contents has been added yet.
 
+This pen leaves a really fine line. You have to be a bit careful when using it; if you drag the tip too fast, it will not lay out ink. 
+
 Topics to add:
 * Picture of the whole pen
 * General comment
