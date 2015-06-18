@@ -23,8 +23,8 @@ where:
    -a action: Action is one of
       - version: Show the current DocPad version installed
       - run: Run the web site in node.js for live update etc
-      - build: Build a new version of the static web site
-      - convert: Convert the database into web pages
+      - generate: Generate files in ./docpad/src from ./src
+      - build: Generate file in ./docpad/out from ./docpad/src
       - upgrade: Upgrade the local DocPad installation
 
 EOT
