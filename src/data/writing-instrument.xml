@@ -224,8 +224,8 @@
       </weight>
       <procurement>
          <vendor id="bureaudirect"/>
-         <price currency="nok">tbd</price>
-         <date>tbd</date>
+         <price>GBP9.50, part of Field Notes bundle</price>
+         <date>2014-02-22</date>
       </procurement>
       <review>
          <status>done</status>
